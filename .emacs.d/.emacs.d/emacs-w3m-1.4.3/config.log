@@ -1,0 +1,20 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:545: checking whether make sets ${MAKE}
+configure:602: checking for a BSD compatible install
+configure:657: checking for makeinfo
+configure:687: checking for texi2dvi
+configure:717: checking for ptex
+configure:747: checking for jbibtex
+configure:779: checking for egrep
+configure:983: checking for emacs
+configure:1029: checking what a flavor does /usr/bin/emacs have
+/usr/bin/emacs -q -no-site-file -batch -eval '(let ((x (cond ((featurep (quote xemacs)) "XEmacs")          ((and (boundp (quote emacs-major-version))                (>= emacs-major-version 21))           "Emacs 21")          ((boundp (quote MULE)) "MULE")          (t "Emacs")))) (write-region (if (stringp x) (princ x) (prin1-to-string x)) nil "./conftest-5600" nil 5))'
+Emacs 21=> Emacs 21
+configure:1079: checking prefix for /usr/bin/emacs
+configure:1115: checking where lisp files should go
+configure:1264: checking where icon files should go
+/usr/bin/emacs -q -no-site-file -batch -eval '(let ((x (let ((prefix "/usr")	      (default (expand-file-name "w3m/icons" data-directory)))	  (if (and prefix		   (progn		     (setq prefix (file-name-as-directory prefix))		     (eq 0 (string-match (regexp-quote prefix) default))))	      (replace-match "$(prefix)/" nil nil default)	    default)))) (write-region (if (stringp x) (princ x) (prin1-to-string x)) nil "./conftest-5600" nil 5))'
+$(prefix)/share/emacs/23.4/etc/w3m/icons=> $(prefix)/share/emacs/23.4/etc/w3m/icons
+configure:1347: checking for regexp-opt

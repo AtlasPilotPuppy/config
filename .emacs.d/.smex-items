@@ -1,0 +1,17 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ pep8
+ cd
+ 5x5
+ ack
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (pep8 . 1)
+ (package-list-packages . 1)
+)
