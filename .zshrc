@@ -58,3 +58,7 @@ mktags() { pushd $1; ctags-exuberant -e -R --languages=python --exclude="__init_
 export BC_ENV_ARGS=~/.bcrc
 
 EDITOR="emacs"
+
+## random_fun_fact
+
+fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
