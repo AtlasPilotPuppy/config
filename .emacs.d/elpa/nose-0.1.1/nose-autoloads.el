@@ -3,8 +3,8 @@
 ;;; Code:
 
 
-;;;### (autoloads nil nil ("nose-pkg.el" "nose.el") (20837 55457
-;;;;;;  8431))
+;;;### (autoloads nil nil ("nose-pkg.el" "nose.el") (20858 47163
+;;;;;;  958081))
 
 ;;;***
 
