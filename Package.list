@@ -377,6 +377,7 @@ geoclue-ubuntu-geoip				install
 geoip-database					install
 gettext						install
 gettext-base					install
+ghc						install
 ghostscript					install
 ghostscript-cups				install
 ghostscript-x					install
@@ -775,6 +776,7 @@ libbonoboui2-common				install
 libboost-date-time1.49.0			install
 libbrasero-media3-1				install
 libbrlapi0.5:amd64				install
+libbsd-dev					install
 libbsd0:amd64					install
 libburn4					install
 libbz2-1.0:amd64				install
@@ -965,6 +967,7 @@ libfaac0					install
 libfaad2:amd64					install
 libfarstream-0.1-0:amd64			install
 libfarstream-0.2-2:amd64			install
+libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
 libfftw3-3:amd64				install
@@ -1069,6 +1072,7 @@ libglu1-mesa:amd64				install
 libglu1-mesa:i386				install
 libgme0						install
 libgmime-2.6-0					install
+libgmp-dev:amd64				install
 libgmp10:amd64					install
 libgmpxx4ldbl:amd64				install
 libgnome-bluetooth11				install
@@ -2413,6 +2417,7 @@ signond						install
 simple-scan					install
 sl						install
 smbclient					install
+smlnj-runtime					install
 smplayer					install
 smplayer-themes					install
 smplayer-translations				install
