@@ -172,6 +172,7 @@ dctrl-tools					install
 debconf						install
 debconf-i18n					install
 debhelper					install
+debiandoc-sgml					install
 debianutils					install
 deborphan					install
 deja-dup					install
@@ -195,6 +196,7 @@ dmz-cursor-theme				install
 dnsmasq-base					install
 dnsutils					install
 doc-base					install
+docutils-common					install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
@@ -1616,6 +1618,7 @@ librest-0.7-0:amd64				install
 librhythmbox-core6				install
 libroken18-heimdal:amd64			install
 libroken18-heimdal:i386				install
+libroman-perl					install
 librpm3						install
 librpmbuild3					install
 librpmio3					install
@@ -1659,6 +1662,7 @@ libsemanage1:amd64				install
 libsensors4:amd64				install
 libsepol1:amd64					install
 libsexy2					install
+libsgmls-perl					install
 libsgutils2-2					install
 libshout3:amd64					install
 libshout3:i386					install
@@ -1693,6 +1697,7 @@ libsox-fmt-alsa:amd64				install
 libsox-fmt-base:amd64				install
 libsox2:amd64					install
 libsoxr0:amd64					install
+libsp1c2					install
 libspandsp2					install
 libspectre1:amd64				install
 libspeechd2:amd64				install
@@ -1743,6 +1748,7 @@ libtelepathy-glib0:amd64			install
 libtelepathy-logger2:amd64			deinstall
 libtelepathy-logger3:amd64			install
 libtext-charwidth-perl				install
+libtext-format-perl				install
 libtext-iconv-perl				install
 libtext-levenshtein-perl			install
 libtext-wrapi18n-perl				install
@@ -2041,6 +2047,8 @@ medibuntu-keyring				install
 memtest86+					install
 mencoder					install
 menu						install
+mercurial					install
+mercurial-common				install
 metacity					install
 metacity-common					install
 mime-support					install
@@ -2224,6 +2232,7 @@ python-defer					install
 python-dev					install
 python-dirspec					install
 python-dnspython				install
+python-docutils					install
 python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
@@ -2285,6 +2294,7 @@ python-reportlab				install
 python-reportlab-accel				install
 python-repoze.lru				install
 python-requests					install
+python-roman					install
 python-routes					install
 python-scour					install
 python-serial					install
@@ -2406,6 +2416,8 @@ sensible-utils					install
 session-migration				install
 sessioninstaller				install
 sgml-base					install
+sgml-data					install
+sgmlspl						install
 shared-mime-info				install
 sharutils					install
 shotwell					install
@@ -2428,6 +2440,7 @@ software-properties-common			install
 software-properties-gtk				install
 sound-theme-freedesktop				install
 sox						install
+sp						install
 speech-dispatcher				install
 spotify-client					install
 ssh-askpass-gnome				install
