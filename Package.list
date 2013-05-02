@@ -379,6 +379,8 @@ geoclue-ubuntu-geoip				install
 geoip-database					install
 gettext						install
 gettext-base					install
+gfortran					install
+gfortran-4.7					install
 ghc						install
 ghostscript					install
 ghostscript-cups				install
@@ -767,6 +769,7 @@ libbamf3-0:amd64				deinstall
 libbamf3-1:amd64				install
 libbind9-80					deinstall
 libbind9-90					install
+libblas-dev					install
 libblas3					install
 libblkid1:amd64					install
 libbluetooth3:amd64				install
@@ -783,6 +786,7 @@ libbsd0:amd64					install
 libburn4					install
 libbz2-1.0:amd64				install
 libbz2-1.0:i386					install
+libbz2-dev:amd64				install
 libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
@@ -1048,6 +1052,8 @@ libgettextpo0:amd64				install
 libgettextpo0:i386				install
 libgexiv2-1					deinstall
 libgexiv2-2					install
+libgfortran-4.7-dev:amd64			install
+libgfortran3:amd64				install
 libgif4:amd64					install
 libgimp2.0					install
 libgirepository-1.0-1				install
@@ -1295,6 +1301,8 @@ libkrb5support0:amd64				install
 libkrb5support0:i386				install
 liblangtag-common				install
 liblangtag1					install
+liblapack-dev					install
+liblapack3					install
 liblavfile-2.0-0				install
 liblavjpeg-2.0-0				install
 liblavplay-2.0-0				install
@@ -1381,6 +1389,7 @@ libnatpmp1					install
 libnautilus-extension1a				install
 libncurses5:amd64				install
 libncurses5:i386				install
+libncurses5-dev					install
 libncursesw5:amd64				install
 libncursesw5:i386				install
 libneon27-gnutls				install
@@ -1593,8 +1602,10 @@ libraw1394-11:amd64				install
 libraw1394-11:i386				install
 libraw5:amd64					install
 librdf0						install
+libreadline-dev:amd64				install
 libreadline5:amd64				install
 libreadline6:amd64				install
+libreadline6-dev:amd64				install
 libreoffice-base-core				install
 libreoffice-calc				install
 libreoffice-common				install
@@ -1763,6 +1774,7 @@ libtiff5:amd64					install
 libtiff5:i386					install
 libtimedate-perl				install
 libtimezonemap1					install
+libtinfo-dev:amd64				install
 libtinfo5:amd64					install
 libtinfo5:i386					install
 libtokyocabinet9:amd64				install
@@ -2266,6 +2278,7 @@ python-mechanize				install
 python-minimal					install
 python-netifaces				install
 python-notify					install
+python-numpy					install
 python-oauth					install
 python-oauthlib					install
 python-old-doctools				install
@@ -2296,6 +2309,7 @@ python-repoze.lru				install
 python-requests					install
 python-roman					install
 python-routes					install
+python-rpy2					install
 python-scour					install
 python-serial					install
 python-setuptools				install
@@ -2374,6 +2388,27 @@ qdbus						install
 qpdf						install
 qt-at-spi:amd64					install
 qtchooser					install
+r-base						install
+r-base-core					install
+r-base-dev					install
+r-base-html					install
+r-cran-boot					install
+r-cran-class					install
+r-cran-cluster					install
+r-cran-codetools				install
+r-cran-foreign					install
+r-cran-kernsmooth				install
+r-cran-lattice					install
+r-cran-mass					install
+r-cran-matrix					install
+r-cran-mgcv					install
+r-cran-nlme					install
+r-cran-nnet					install
+r-cran-rpart					install
+r-cran-spatial					install
+r-cran-survival					install
+r-doc-html					install
+r-recommended					install
 rabbitmq-server					install
 radeontool					install
 rar						install
