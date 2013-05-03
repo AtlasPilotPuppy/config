@@ -66,6 +66,7 @@ at-spi2-core					install
 atop						install
 audacity					install
 audacity-data					install
+augeas-lenses					install
 autoconf					install
 automake					install
 autotools-dev					install
@@ -100,6 +101,7 @@ branding-ubuntu					install
 brasero						install
 brasero-cdrkit					install
 brasero-common					install
+bridge-utils					install
 brltty						install
 bsdmainutils					install
 bsdutils					install
@@ -118,6 +120,7 @@ calibre						install
 calibre-bin					install
 ccache						install
 cdbs						install
+cgroup-lite					install
 check:amd64					install
 checkbox					install
 checkbox-qt					install
@@ -146,6 +149,7 @@ coreutils					install
 cpio						install
 cpp						install
 cpp-4.7						install
+cpu-checker					install
 cracklib-runtime				install
 crda						install
 cron						install
@@ -174,6 +178,7 @@ debconf-i18n					install
 debhelper					install
 debiandoc-sgml					install
 debianutils					install
+debootstrap					install
 deborphan					install
 deja-dup					install
 deja-dup-backend-gvfs				install
@@ -207,6 +212,7 @@ dvd+rw-tools					install
 e2fslibs:amd64					install
 e2fsprogs					install
 easytag						install
+ebtables					install
 ecryptfs-utils					install
 ed						install
 eject						install
@@ -638,12 +644,15 @@ iptables					install
 iputils-arping					install
 iputils-ping					install
 iputils-tracepath				install
+ipxe-qemu					install
 ipython						install
 irqbalance					install
 irssi						install
 irssi-scripts					install
 isc-dhcp-client					install
 isc-dhcp-common					install
+iscan						install
+iscan-data					install
 iso-codes					install
 iw						install
 java-common					install
@@ -659,6 +668,7 @@ kpartx						install
 kpartx-boot					install
 krb5-locales					install
 krb5-multidev					install
+kvm-ipxe					install
 lame						install
 landscape-client-ui-install			install
 language-pack-en				install
@@ -692,6 +702,7 @@ libacl1:amd64					install
 libacl1:i386					install
 libadns1					install
 libaften0					install
+libaio1:amd64					install
 libaio1:i386					install
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
@@ -701,6 +712,7 @@ libanjuta-3-0					install
 libao-common					install
 libao4:amd64					install
 libao4:i386					install
+libapparmor1					install
 libappconfig-perl				install
 libappindicator1				install
 libappindicator3-1				install
@@ -746,6 +758,7 @@ libaudiofile1:amd64				install
 libaudiofile1:i386				install
 libaudit-common					install
 libaudit1:amd64					install
+libaugeas0					install
 libav-tools					install
 libavahi-client3:amd64				install
 libavahi-client3:i386				install
@@ -779,6 +792,7 @@ libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.49.0			install
+libboost-thread1.49.0				install
 libbrasero-media3-1				install
 libbrlapi0.5:amd64				install
 libbsd-dev					install
@@ -787,6 +801,8 @@ libburn4					install
 libbz2-1.0:amd64				install
 libbz2-1.0:i386					install
 libbz2-dev:amd64				install
+libc-ares-dev:amd64				install
+libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
@@ -955,6 +971,8 @@ liberror-perl					install
 libesd0:amd64					install
 libesd0:i386					install
 libespeak1:amd64				install
+libev-dev					install
+libev4						install
 libevdocument3-4				install
 libevent-2.0-5:amd64				install
 libevview3-3					install
@@ -973,6 +991,7 @@ libfaac0					install
 libfaad2:amd64					install
 libfarstream-0.1-0:amd64			install
 libfarstream-0.2-2:amd64			install
+libfdt1						install
 libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
@@ -1399,6 +1418,7 @@ libnet-http-perl				install
 libnet-ip-perl					install
 libnet-ssleay-perl				install
 libnet1						install
+libnetcf1					install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
@@ -1595,12 +1615,14 @@ libquadmath0:amd64				install
 libquicktime2:amd64				install
 libquvi-scripts					install
 libquvi7:amd64					install
+librados2					install
 libraptor2-0					install
 librasqal3					install
 libraw-bin					install
 libraw1394-11:amd64				install
 libraw1394-11:i386				install
 libraw5:amd64					install
+librbd1						install
 librdf0						install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
@@ -1663,6 +1685,7 @@ libsdl-net1.2:i386				install
 libsdl-ttf2.0-0:i386				install
 libsdl1.2debian:amd64				install
 libsdl1.2debian:i386				install
+libseccomp1:amd64				install
 libsecret-1-0:amd64				install
 libsecret-1-0:i386				install
 libsecret-common				install
@@ -1716,6 +1739,7 @@ libspeex1:amd64					install
 libspeex1:i386					install
 libspeexdsp1:amd64				install
 libspeexdsp1:i386				install
+libspice-server1:amd64				install
 libsqlite3-0:amd64				install
 libsqlite3-0:i386				install
 libss2:amd64					install
@@ -1819,11 +1843,15 @@ libv4l-0:amd64					install
 libv4l-0:i386					install
 libv4lconvert0:amd64				install
 libv4lconvert0:i386				install
+libv8-3.8.9.20					install
+libv8-dev					install
 libva-x11-1:amd64				install
 libva1:amd64					install
 libvamp-hostsdk3:amd64				install
 libvcdinfo0					install
 libvdpau1:amd64					install
+libvirt-bin					install
+libvirt0					install
 libvisio-0.0-0					install
 libvisual-0.4-0:amd64				install
 libvisual-0.4-0:i386				install
@@ -1937,6 +1965,8 @@ libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxdo2						deinstall
 libxdot4					install
+libxen-4.2					install
+libxenstore3.0					install
 libxerces2-java					install
 libxext-dev:amd64				install
 libxext6:amd64					install
@@ -2081,6 +2111,7 @@ mpg123						install
 mpg321						install
 mplayer						install
 mscompress					install
+msr-tools					install
 mtools						install
 mtr-tiny					install
 multiarch-support				install
@@ -2113,6 +2144,9 @@ network-manager-pptp				install
 network-manager-pptp-gnome			install
 ngrep						install
 nmap						install
+nodejs						install
+nodejs-dbg					install
+nodejs-dev					install
 notify-osd					install
 notify-osd-icons				install
 nspluginviewer					install
@@ -2224,7 +2258,9 @@ python-aptdaemon.gtk3widgets			install
 python-beautifulsoup				install
 python-bzrlib					install
 python-cairo					install
+python-central					install
 python-chardet					install
+python-cheetah					install
 python-cherrypy3				install
 python-compizconfig				install
 python-configglue				install
@@ -2268,6 +2304,7 @@ python-keyring					install
 python-launchpadlib				install
 python-lazr.restfulclient			install
 python-lazr.uri					install
+python-libvirt					install
 python-libxml2					install
 python-logilab-astng				install
 python-logilab-common				install
@@ -2330,6 +2367,7 @@ python-ubuntuone-storageprotocol		install
 python-uno					install
 python-urllib3					install
 python-utidylib					install
+python-vm-builder				install
 python-wadllib					install
 python-webob					install
 python-xapian					install
@@ -2385,6 +2423,18 @@ python3.2-minimal				deinstall
 python3.3					install
 python3.3-minimal				install
 qdbus						install
+qemu						install
+qemu-keymaps					install
+qemu-system					install
+qemu-system-arm					install
+qemu-system-common				install
+qemu-system-mips				install
+qemu-system-misc				install
+qemu-system-ppc					install
+qemu-system-sparc				install
+qemu-system-x86					install
+qemu-user					install
+qemu-utils					install
 qpdf						install
 qt-at-spi:amd64					install
 qtchooser					install
@@ -2445,6 +2495,7 @@ samba-common					install
 samba-common-bin				install
 sane-utils					install
 screen						install
+seabios						install
 seahorse					install
 sed						install
 sensible-utils					install
@@ -2464,7 +2515,7 @@ signond						install
 simple-scan					install
 sl						install
 smbclient					install
-smlnj-runtime					install
+smlnj-runtime					deinstall
 smplayer					install
 smplayer-themes					install
 smplayer-translations				install
@@ -2587,6 +2638,7 @@ ubuntu-sso-client				install
 ubuntu-sso-client-qt				install
 ubuntu-standard					install
 ubuntu-system-service				install
+ubuntu-vm-builder				install
 ubuntu-wallpapers				install
 ubuntu-wallpapers-quantal			install
 ubuntu-wallpapers-raring			install
@@ -2647,6 +2699,7 @@ util-linux					install
 uudeview					install
 uuid-runtime					install
 vbetool						install
+vgabios						install
 vim-common					install
 vim-tiny					install
 vino						install
@@ -2749,6 +2802,7 @@ xserver-xorg-video-tdfx				install
 xserver-xorg-video-trident			install
 xserver-xorg-video-vesa				install
 xserver-xorg-video-vmware			install
+xsltproc					install
 xterm						install
 xtrans-dev					install
 xul-ext-ubufox					install
