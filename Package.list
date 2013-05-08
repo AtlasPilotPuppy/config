@@ -134,6 +134,7 @@ chromium-browser				install
 chromium-browser-l10n				install
 chromium-codecs-ffmpeg-extra			install
 colord						install
+colordiff					install
 comerr-dev					install
 command-not-found				install
 command-not-found-data				install
@@ -1552,6 +1553,7 @@ libportsmf0					install
 libpostproc52:amd64				install
 libppl-c4:amd64					install
 libppl12:amd64					install
+libpq-dev					install
 libpq5						install
 libprocps0:amd64				install
 libprotobuf7					install
@@ -2111,7 +2113,7 @@ mesa-common-dev					install
 metacity					install
 metacity-common					install
 mime-support					install
-mit-scheme					install
+mit-scheme					deinstall
 mjpegtools					install
 mjpegtools-gtk					install
 mlocate						install
@@ -2229,9 +2231,14 @@ policykit-desktop-privileges			install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
-postgresql-9.1					deinstall
+postgresql					install
+postgresql-9.1					install
+postgresql-client-9.1				install
 postgresql-client-common			install
 postgresql-common				install
+postgresql-contrib				install
+postgresql-contrib-9.1				install
+postgresql-server-dev-9.1			install
 powermgmt-base					install
 ppp						install
 pppconfig					install
