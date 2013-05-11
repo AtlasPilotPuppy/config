@@ -309,9 +309,6 @@
 	      (pcache
 	       (0 2 3)))
 	     "Utilities for Unicode characters [github]" tar])
- (typo .
-       [(20130312 1948)
-	nil "Minor mode for typographic editing [github]" single])
  (typing .
 	 [(20121026 2118)
 	  nil "The Typing Of Emacs [wiki]" single])
@@ -645,7 +642,7 @@
 	   [(20130312 1839)
 	    nil "Support sequential operation which omitted prefix keys. [github]" single])
  (smartparens .
-	      [(20130510 1736)
+	      [(20130510 1846)
 	       ((dash
 		 (1 1 0)))
 	       "Automatic insertion, wrapping and paredit-like navigation with user defined pairs. [github]" tar])
@@ -795,9 +792,6 @@
  (scf-mode .
 	   [(20111202 2307)
 	    nil "shorten file-names in compilation type buffers [github]" single])
- (scala-mode2 .
-	      [(20130403 1734)
-	       nil "Major mode for editing Scala >= 2.9 [github]" tar])
  (scala-mode .
 	     [(20121205 1135)
 	      nil "No description available. [github]" tar])
@@ -824,9 +818,6 @@
  (sackspace .
 	    [(20130402 1530)
 	     nil "A better backspace [github]" single])
- (s .
-    [(20130509 1352)
-     nil "The long lost Emacs string manipulation library. [github]" single])
  (rvm .
       [(20130403 1103)
        nil "Emacs integration for rvm [github]" single])
@@ -958,9 +949,6 @@
 	    (cl-lib
 	     (0 2)))
 	   "A modular framework for interacting with external debuggers. [github]" tar])
- (rdp .
-      [(20120928 2154)
-       nil "Recursive Descent Parser library [github]" single])
  (rbenv .
 	[(20130405 1206)
 	 nil "Emacs integration for rbenv [github]" single])
@@ -1403,9 +1391,6 @@
  (multiple-cursors .
 		   [(20130508 1100)
 		    nil "Multiple cursors for Emacs. [github]" tar])
- (multifiles .
-	     [(20121114 2059)
-	      nil "View and edit parts of multiple files in one buffer [github]" single])
  (multi-web-mode .
 		 [(20130205 2044)
 		  nil "multiple major mode support for web editing [github]" tar])
@@ -1630,9 +1615,6 @@
 	   ((dash
 	     (1 1 0)))
 	   "dynamic evaluation replacement with emacs [github]" single])
- (list-utils .
-	     [(20121205 1456)
-	      nil "List-manipulation utility functions [github]" single])
  (lispyscript-mode .
 		   [(20130425 1201)
 		    nil "Major mode for LispyScript code. [github]" single])
@@ -1692,13 +1674,6 @@
  (kivy-mode .
 	    [(20130319 1633)
 	     nil "Emacs major mode for editing Kivy files [github]" single])
- (kite .
-       [(20130201 2038)
-	((json
-	  (1 2))
-	 (websocket
-	  (0 93 1)))
-	"WebKit inspector front-end [github]" tar])
  (killer .
 	 [(20120808 1322)
 	  nil "kill and delete text [github]" single])
@@ -1779,9 +1754,6 @@
  (js-comint .
 	    [(20080530 957)
 	     nil "Run javascript in an inferior process window. [svn]" single])
- (jknav .
-	[(20121006 1325)
-	 nil "Automatically enable j/k keys for line-based navigation [github]" single])
  (jira .
        [(20091012 2123)
 	nil "Connect to JIRA issue tracking software [wiki]" single])
@@ -2275,9 +2247,15 @@
  (gitty .
 	[(20121014 1642)
 	 nil "vc-mode extension for fast git interaction [github]" single])
+ (gitignore-mode .
+		 [(20130506 924)
+		  nil "Major mode for editing .gitignore files [github]" single])
  (github-browse-file .
 		     [(20130408 1640)
 		      nil "View the file you're editing on GitHub [github]" single])
+ (gitconfig-mode .
+		 [(20130506 924)
+		  nil "Major mode for editing .gitconfig files [github]" single])
  (git-gutter-fringe .
 		    [(20130416 1524)
 		     ((git-gutter
@@ -2291,6 +2269,9 @@
  (git-dwim .
 	   [(20130130 2150)
 	    nil "Context-aware git commands such as branch handling [wiki]" single])
+ (git-commit-mode .
+		  [(20130506 924)
+		   nil "Major mode for editing git commit messages [github]" single])
  (git-blame .
 	    [(20110509 1226)
 	     nil "Minor mode for incremental blame for Git [github]" single])
@@ -3056,11 +3037,6 @@
  (dedicated .
 	    [(20090428 2131)
 	     nil "A very simple minor mode for dedicated buffers [github]" single])
- (db .
-     [(20130125 1829)
-      ((kv
-	(0 0 11)))
-      "A database for EmacsLisp [github]" single])
  (dash-at-point .
 		[(20130417 1034)
 		 nil "Search the word at point with Dash [github]" single])
@@ -3587,13 +3563,37 @@
  (abl-mode .
 	   [(20120718 1655)
 	    nil "Python TDD minor mode [github]" single])
- (gitignore-mode .
-		 [(20130506 924)
-		  nil "Major mode for editing .gitignore files [github]" single])
- (gitconfig-mode .
-		 [(20130506 924)
-		  nil "Major mode for editing .gitconfig files [github]" single])
- (git-commit-mode .
-		  [(20130506 924)
-		   nil "Major mode for editing git commit messages [github]" single]))
+ (typo .
+       [(20130312 1948)
+	nil "Minor mode for typographic editing [github]" single])
+ (scala-mode2 .
+	      [(20130403 1734)
+	       nil "Major mode for editing Scala >= 2.9 [github]" tar])
+ (s .
+    [(20130509 1352)
+     nil "The long lost Emacs string manipulation library. [github]" single])
+ (rdp .
+      [(20120928 2154)
+       nil "Recursive Descent Parser library [github]" single])
+ (multifiles .
+	     [(20121114 2059)
+	      nil "View and edit parts of multiple files in one buffer [github]" single])
+ (list-utils .
+	     [(20121205 1456)
+	      nil "List-manipulation utility functions [github]" single])
+ (kite .
+       [(20130201 2038)
+	((json
+	  (1 2))
+	 (websocket
+	  (0 93 1)))
+	"WebKit inspector front-end [github]" tar])
+ (jknav .
+	[(20121006 1325)
+	 nil "Automatically enable j/k keys for line-based navigation [github]" single])
+ (db .
+     [(20130125 1829)
+      ((kv
+	(0 0 11)))
+      "A database for EmacsLisp [github]" single]))
 
