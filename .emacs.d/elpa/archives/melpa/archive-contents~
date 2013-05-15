@@ -309,6 +309,9 @@
 	      (pcache
 	       (0 2 3)))
 	     "Utilities for Unicode characters [github]" tar])
+ (typo .
+       [(20130312 1948)
+	nil "Minor mode for typographic editing [github]" single])
  (typing .
 	 [(20121026 2118)
 	  nil "The Typing Of Emacs [wiki]" single])
@@ -792,6 +795,9 @@
  (scf-mode .
 	   [(20111202 2307)
 	    nil "shorten file-names in compilation type buffers [github]" single])
+ (scala-mode2 .
+	      [(20130403 1734)
+	       nil "Major mode for editing Scala >= 2.9 [github]" tar])
  (scala-mode .
 	     [(20121205 1135)
 	      nil "No description available. [github]" tar])
@@ -818,6 +824,9 @@
  (sackspace .
 	    [(20130402 1530)
 	     nil "A better backspace [github]" single])
+ (s .
+    [(20130509 1352)
+     nil "The long lost Emacs string manipulation library. [github]" single])
  (rvm .
       [(20130403 1103)
        nil "Emacs integration for rvm [github]" single])
@@ -949,6 +958,9 @@
 	    (cl-lib
 	     (0 2)))
 	   "A modular framework for interacting with external debuggers. [github]" tar])
+ (rdp .
+      [(20120928 2154)
+       nil "Recursive Descent Parser library [github]" single])
  (rbenv .
 	[(20130405 1206)
 	 nil "Emacs integration for rbenv [github]" single])
@@ -1035,7 +1047,7 @@
 	     [(20120709 2122)
 	      nil "run powershell as an inferior shell in emacs [wiki]" single])
  (powerline .
-	    [(20130507 1250)
+	    [(20130510 1440)
 	     nil "Rewrite of Powerline [github]" tar])
  (pov-mode .
 	   [(20120825 1616)
@@ -1391,6 +1403,9 @@
  (multiple-cursors .
 		   [(20130508 1100)
 		    nil "Multiple cursors for Emacs. [github]" tar])
+ (multifiles .
+	     [(20121114 2059)
+	      nil "View and edit parts of multiple files in one buffer [github]" single])
  (multi-web-mode .
 		 [(20130205 2044)
 		  nil "multiple major mode support for web editing [github]" tar])
@@ -2090,11 +2105,6 @@
 	   ((helm
 	     (1 0)))
 	   "the silver search with helm interface [github]" single])
- (helm-ack .
-	   [(20130221 1943)
-	    ((helm
-	      (1 0)))
-	    "Ack command with helm interface [github]" single])
  (helm-R .
 	 [(20120820 914)
 	  ((helm
@@ -2122,11 +2132,6 @@
  (haskell-mode .
 	       [(20130505 255)
 		nil "A Haskell editing mode [github]" tar])
- (hardhat .
-	  [(20130508 1417)
-	   ((ignoramus
-	     (0 6 2)))
-	   "Protect against clobbering user-writable files [github]" single])
  (hardcore-mode .
 		[(20111205 716)
 		 nil "Disable arrow keys + optionally backspace and return [github]" single])
@@ -2138,11 +2143,6 @@
 	     ((ruby-mode
 	       (1 0)))
 	     "Major mode for editing Haml files [github]" single])
- (hackernews .
-	     [(20130220 2042)
-	      ((json
-		(1 2)))
-	      "Access the hackernews aggregator from Emacs [github]" tar])
  (guru-mode .
 	    [(20121016 1452)
 	     nil "Become an Emacs guru [github]" single])
@@ -2187,7 +2187,7 @@
 	      (20121108)))
 	    "A set of defaults targeted at GUI text editor diaspora. [github]" tar])
  (grandshell-theme .
-		   [(20130509 1747)
+		   [(20130510 2116)
 		    nil "Dark color theme for Emacs > 24 with intensive colors. [github]" tar])
  (gplusify .
 	   [(20121211 1422)
@@ -2218,9 +2218,6 @@
  (google-c-style .
 		 [(20130412 1615)
 		  nil "Google's C/C++ style for c-mode [svn]" single])
- (golden-ratio .
-	       [(20130428 1131)
-		nil "Automatic resizing of Emacs windows to the golden ratio [github]" single])
  (go-play .
 	  [(20120620 34)
 	   nil "Paste to play.golang.org [github]" single])
@@ -2247,15 +2244,9 @@
  (gitty .
 	[(20121014 1642)
 	 nil "vc-mode extension for fast git interaction [github]" single])
- (gitignore-mode .
-		 [(20130506 924)
-		  nil "Major mode for editing .gitignore files [github]" single])
  (github-browse-file .
 		     [(20130408 1640)
 		      nil "View the file you're editing on GitHub [github]" single])
- (gitconfig-mode .
-		 [(20130506 924)
-		  nil "Major mode for editing .gitconfig files [github]" single])
  (git-gutter-fringe .
 		    [(20130416 1524)
 		     ((git-gutter
@@ -2269,9 +2260,6 @@
  (git-dwim .
 	   [(20130130 2150)
 	    nil "Context-aware git commands such as branch handling [wiki]" single])
- (git-commit-mode .
-		  [(20130506 924)
-		   nil "Major mode for editing git commit messages [github]" single])
  (git-blame .
 	    [(20110509 1226)
 	     nil "Minor mode for incremental blame for Git [github]" single])
@@ -2374,13 +2362,6 @@
  (foreign-regexp .
 		 [(20130428 1957)
 		  nil "search and replace by foreign regexp. [github]" tar])
- (font-utils .
-	     [(20121205 1454)
-	      ((persistent-soft
-		(0 8 6))
-	       (pcache
-		(0 2 3)))
-	      "Utility functions for working with fonts [github]" single])
  (fold-this .
 	    [(20121218 1630)
 	     nil "Just fold this region please [github]" single])
@@ -2448,11 +2429,6 @@
 		  ((flymake-easy
 		    (0 1)))
 		  "making flymake work with JSHint [github]" single])
- (flymake-hlint .
-		[(20130309 945)
-		 ((flymake-easy
-		   (0 1)))
-		 "A flymake handler for haskell-mode files using hlint [github]" single])
  (flymake-haskell-multi .
 			[(20130415 1042)
 			 ((flymake-easy
@@ -3303,7 +3279,7 @@
 	   [(20081011 2126)
 	    nil "Quote text with a semi-box. [github]" single])
  (bookmark+ .
-	    [(20130426 1933)
+	    [(20130510 1758)
 	     nil "Bookmark+: extensions to standard library `bookmark.el'. [wiki]" tar])
  (bm .
      [(20130226 1440)
@@ -3354,9 +3330,6 @@
  (bash-completion .
 		  [(20111120 1539)
 		   nil "BASH completion for the shell buffer [github]" tar])
- (base16-theme .
-	       [(20130216 947)
-		nil "No description available. [github]" tar])
  (backup-walker .
 		[(20120625 1244)
 		 nil "quickly traverse all backups of a file [github]" single])
@@ -3449,9 +3422,6 @@
  (anything .
 	   [(20130323 1652)
 	    nil "open anything / QuickSilver-like candidate-selection framework [git]" tar])
- (anti-zenburn-theme .
-		     [(20130417 2351)
-		      nil "Low-contrast Zenburn-inverted theme [github]" single])
  (ansi .
        [(20121008 1920)
 	nil "Turn string into ansi strings [github]" tar])
@@ -3489,15 +3459,6 @@
 	 ((string-utils
 	   (0 0 2)))
 	 "Alternatives to `message' [github]" single])
- (airplay .
-	  [(20130212 2126)
-	   ((request
-	     (20130110 2144))
-	    (simple-httpd
-	     (1 4 1))
-	    (deferred
-	      (0 3 1)))
-	   "Airplay bindings to Emacs [github]" tar])
  (ahg .
       [(20130328 848)
        nil "Alberto's Emacs interface for Mercurial (Hg) [hg]" single])
@@ -3563,21 +3524,60 @@
  (abl-mode .
 	   [(20120718 1655)
 	    nil "Python TDD minor mode [github]" single])
- (typo .
-       [(20130312 1948)
-	nil "Minor mode for typographic editing [github]" single])
- (scala-mode2 .
-	      [(20130403 1734)
-	       nil "Major mode for editing Scala >= 2.9 [github]" tar])
- (s .
-    [(20130509 1352)
-     nil "The long lost Emacs string manipulation library. [github]" single])
- (rdp .
-      [(20120928 2154)
-       nil "Recursive Descent Parser library [github]" single])
- (multifiles .
-	     [(20121114 2059)
-	      nil "View and edit parts of multiple files in one buffer [github]" single])
+ (helm-ack .
+	   [(20130221 1943)
+	    ((helm
+	      (1 0)))
+	    "Ack command with helm interface [github]" single])
+ (hardhat .
+	  [(20130508 1417)
+	   ((ignoramus
+	     (0 6 2)))
+	   "Protect against clobbering user-writable files [github]" single])
+ (hackernews .
+	     [(20130220 2042)
+	      ((json
+		(1 2)))
+	      "Access the hackernews aggregator from Emacs [github]" tar])
+ (golden-ratio .
+	       [(20130428 1131)
+		nil "Automatic resizing of Emacs windows to the golden ratio [github]" single])
+ (gitignore-mode .
+		 [(20130506 924)
+		  nil "Major mode for editing .gitignore files [github]" single])
+ (gitconfig-mode .
+		 [(20130506 924)
+		  nil "Major mode for editing .gitconfig files [github]" single])
+ (git-commit-mode .
+		  [(20130506 924)
+		   nil "Major mode for editing git commit messages [github]" single])
+ (font-utils .
+	     [(20121205 1454)
+	      ((persistent-soft
+		(0 8 6))
+	       (pcache
+		(0 2 3)))
+	      "Utility functions for working with fonts [github]" single])
+ (flymake-hlint .
+		[(20130309 945)
+		 ((flymake-easy
+		   (0 1)))
+		 "A flymake handler for haskell-mode files using hlint [github]" single])
+ (base16-theme .
+	       [(20130216 947)
+		nil "No description available. [github]" tar])
+ (anti-zenburn-theme .
+		     [(20130417 2351)
+		      nil "Low-contrast Zenburn-inverted theme [github]" single])
+ (airplay .
+	  [(20130212 2126)
+	   ((request
+	     (20130110 2144))
+	    (simple-httpd
+	     (1 4 1))
+	    (deferred
+	      (0 3 1)))
+	   "Airplay bindings to Emacs [github]" tar])
  (list-utils .
 	     [(20121205 1456)
 	      nil "List-manipulation utility functions [github]" single])
