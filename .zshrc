@@ -55,7 +55,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 mkcd() { mkdir -p $1 && cd $1; }
 
-mktags() { pushd $1; ctags-exuberant -e -R --languages=python --exclude="__init__.py"; popd}
+mktags() {  ctags-exuberant -e -R --languages=Python,HTML,JavaScript --exclude="__init__.py"}
 ##
 export BC_ENV_ARGS=~/.bcrc
 
