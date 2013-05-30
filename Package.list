@@ -99,7 +99,6 @@ bluez-gstreamer					install
 boot-repair					install
 boot-sav					install
 boot-sav-extra					install
-bpython						install
 branding-ubuntu					install
 brasero						install
 brasero-cdrkit					install
