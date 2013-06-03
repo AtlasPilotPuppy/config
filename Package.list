@@ -2643,6 +2643,7 @@ thunderbird-globalmenu				install
 thunderbird-gnome-support			install
 thunderbird-locale-en				install
 thunderbird-locale-en-us			install
+tidy						install
 time						install
 tipa						install
 tk8.5						install
