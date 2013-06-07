@@ -296,6 +296,7 @@ fonts-lao					install
 fonts-liberation				install
 fonts-lklug-sinhala				install
 fonts-lmodern					install
+fonts-mathjax					install
 fonts-nanum					install
 fonts-opensymbol				install
 fonts-sil-abyssinica				install
@@ -509,6 +510,7 @@ gnome-user-share				install
 gnome-video-effects				install
 gnomine						install
 gnupg						install
+googlecl					install
 gparted						install
 gperf						install
 gpgv						install
@@ -1309,6 +1311,7 @@ libjpeg8:amd64					install
 libjpeg8:i386					install
 libjpeg8-dev:amd64				install
 libjs-jquery					install
+libjs-mathjax					install
 libjs-node-uuid					install
 libjs-prototype					install
 libjs-scriptaculous				install
@@ -2069,6 +2072,8 @@ linux-headers-3.8.0-22				install
 linux-headers-3.8.0-22-generic			install
 linux-headers-3.8.0-23				install
 linux-headers-3.8.0-23-generic			install
+linux-headers-3.8.0-25				install
+linux-headers-3.8.0-25-generic			install
 linux-headers-generic				install
 linux-image-3.5.0-17-generic			deinstall
 linux-image-3.5.0-18-generic			deinstall
@@ -2078,6 +2083,7 @@ linux-image-3.8.0-19-generic			install
 linux-image-3.8.0-21-generic			install
 linux-image-3.8.0-22-generic			install
 linux-image-3.8.0-23-generic			install
+linux-image-3.8.0-25-generic			install
 linux-image-extra-3.5.0-17-generic		deinstall
 linux-image-extra-3.5.0-18-generic		deinstall
 linux-image-extra-3.5.0-19-generic		deinstall
@@ -2086,6 +2092,7 @@ linux-image-extra-3.8.0-19-generic		install
 linux-image-extra-3.8.0-21-generic		install
 linux-image-extra-3.8.0-22-generic		install
 linux-image-extra-3.8.0-23-generic		install
+linux-image-extra-3.8.0-25-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install
@@ -2332,6 +2339,7 @@ python-egenix-mxdatetime			install
 python-egenix-mxtools				install
 python-feedparser				install
 python-gconf					install
+python-gdata					install
 python-gi					install
 python-gi-cairo					install
 python-glade2					install
@@ -2357,6 +2365,7 @@ python-logilab-astng				install
 python-logilab-common				install
 python-lxml					install
 python-mako					install
+python-markdown					install
 python-markupsafe				install
 python-mechanize				install
 python-minimal					install
@@ -2401,6 +2410,7 @@ python-sip					install
 python-six					install
 python-smbc					install
 python-software-properties			install
+python-support					install
 python-tk					install
 python-twisted-bin				install
 python-twisted-core				install
