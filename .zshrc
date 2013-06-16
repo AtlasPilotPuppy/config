@@ -64,3 +64,5 @@ EDITOR="emacs"
 ## random_fun_fact
 
 fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
+
+alias cdp="cd ~/projects/proton"

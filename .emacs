@@ -189,3 +189,5 @@
 (global-set-key (kbd "C-x O") 'previous-multiframe-window)
 ;;rebind tags
 (global-set-key (kbd "M-.") 'find-tag)
+;;django-mode
+(require 'python-django)
