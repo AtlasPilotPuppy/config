@@ -191,3 +191,7 @@
 (global-set-key (kbd "M-.") 'find-tag)
 ;;django-mode
 (require 'python-django)
+
+;; trampmode setup
+
+(setq tramp-default-method "ssh")

@@ -87,6 +87,7 @@ bash						install
 bash-completion					install
 bc						install
 bind9-host					install
+binfmt-support					install
 binutils					install
 bison						install
 bleachbit					install
@@ -132,6 +133,7 @@ cheese-common					install
 chromium-browser				install
 chromium-browser-l10n				install
 chromium-codecs-ffmpeg-extra			install
+cli-common					install
 colord						install
 colordiff					install
 comerr-dev					install
@@ -344,6 +346,8 @@ gcc-4.7-base:amd64				install
 gcc-4.7-base:i386				install
 gcc-4.7-multilib				install
 gcc-multilib					install
+gconf-defaults-service				install
+gconf-editor					install
 gconf-service					install
 gconf-service-backend				install
 gconf2						install
@@ -477,6 +481,8 @@ gnome-control-center-signon			install
 gnome-control-center-unity			install
 gnome-desktop3-data				install
 gnome-disk-utility				install
+gnome-do					install
+gnome-do-plugins				install
 gnome-font-viewer				install
 gnome-genius					install
 gnome-icon-theme				install
@@ -491,7 +497,7 @@ gnome-orca					install
 gnome-panel					install
 gnome-panel-data				install
 gnome-power-manager				install
-gnome-ppp					install
+gnome-ppp					deinstall
 gnome-screensaver				install
 gnome-screenshot				install
 gnome-session					install
@@ -743,6 +749,7 @@ libarchive-zip-perl				install
 libarchive12:amd64				deinstall
 libarchive13:amd64				install
 libart-2.0-2:amd64				install
+libart2.0-cil					install
 libasn1-8-heimdal:amd64				install
 libasn1-8-heimdal:i386				install
 libasound2:amd64				install
@@ -931,6 +938,8 @@ libdbus-1-dev:amd64				install
 libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
 libdbus-glib-1-dev				install
+libdbus-glib1.0-cil				install
+libdbus1.0-cil					install
 libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk3-4:amd64			install
 libdbusmenu-gtk4:amd64				install
@@ -1034,6 +1043,7 @@ libflac++6:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
 libflickcurl0					install
+libflickrnet2.2-cil				install
 libflite1:amd64					install
 libfolks-eds25					install
 libfolks-telepathy25				install
@@ -1070,6 +1080,7 @@ libgck-1-0					install
 libgconf-2-4:amd64				install
 libgconf-2-4:i386				install
 libgconf2-4:amd64				install
+libgconf2.0-cil					install
 libgcr-3-1					install
 libgcr-3-common					install
 libgcrypt11:amd64				install
@@ -1078,8 +1089,10 @@ libgd2-xpm:amd64				install
 libgd2-xpm:i386					install
 libgdata-common					install
 libgdata13					install
+libgdata2.1-cil					install
 libgdbm3:amd64					install
 libgdbm3:i386					install
+libgdiplus					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				install
 libgdk-pixbuf2.0-common				install
@@ -1108,6 +1121,7 @@ libgl1-mesa-dri:i386				install
 libgl1-mesa-glx:amd64				install
 libgl1-mesa-glx:i386				install
 libglade2-0:amd64				install
+libglade2.0-cil					install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles2-mesa:amd64				install
@@ -1117,6 +1131,7 @@ libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
 libglib2.0-bin					install
+libglib2.0-cil					install
 libglib2.0-data					install
 libglib2.0-dev					install
 libglibmm-2.4-1c2a:amd64			install
@@ -1129,18 +1144,23 @@ libgmp10:amd64					install
 libgmpxx4ldbl:amd64				install
 libgnome-bluetooth11				install
 libgnome-control-center1			install
+libgnome-desktop-2-17				install
 libgnome-desktop-3-4				install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
 libgnome-keyring0:i386				install
+libgnome-keyring1.0-cil				install
 libgnome-media-profiles-3.0-0			install
 libgnome-menu-3-0				install
 libgnome-menu2					install
+libgnome-vfs2.0-cil				install
 libgnome2-0:amd64				install
 libgnome2-bin					install
 libgnome2-common				install
+libgnome2.24-cil				install
 libgnomecanvas2-0:amd64				install
 libgnomecanvas2-common				install
+libgnomedesktop2.20-cil				install
 libgnomekbd-common				install
 libgnomekbd8					install
 libgnomeui-0:amd64				install
@@ -1199,6 +1219,7 @@ libgtk2-perl					install
 libgtk2.0-0:amd64				install
 libgtk2.0-0:i386				install
 libgtk2.0-bin					install
+libgtk2.0-cil					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkimageview0				install
@@ -1332,6 +1353,7 @@ libkadm5clnt-mit8:amd64				install
 libkadm5srv-mit8:amd64				install
 libkate1					install
 libkdb5-6:amd64					install
+libkeybinder0					install
 libkeyutils1:amd64				install
 libkeyutils1:i386				install
 libklibc					install
@@ -1409,6 +1431,33 @@ libmms0:amd64					install
 libmng1:amd64					install
 libmng1:i386					install
 libmodplug1					install
+libmono-addins0.2-cil				install
+libmono-cairo4.0-cil				install
+libmono-corlib4.0-cil				install
+libmono-data-tds4.0-cil				install
+libmono-i18n-west4.0-cil			install
+libmono-i18n4.0-cil				install
+libmono-posix4.0-cil				install
+libmono-security4.0-cil				install
+libmono-sharpzip4.84-cil			install
+libmono-sqlite4.0-cil				install
+libmono-system-configuration4.0-cil		install
+libmono-system-core4.0-cil			install
+libmono-system-data4.0-cil			install
+libmono-system-drawing4.0-cil			install
+libmono-system-enterpriseservices4.0-cil	install
+libmono-system-runtime-serialization-formatters-soap4.0-cil	install
+libmono-system-runtime-serialization4.0-cil	install
+libmono-system-runtime4.0-cil			install
+libmono-system-security4.0-cil			install
+libmono-system-transactions4.0-cil		install
+libmono-system-web-applicationservices4.0-cil	install
+libmono-system-web-services4.0-cil		install
+libmono-system-web4.0-cil			install
+libmono-system-xml-linq4.0-cil			install
+libmono-system-xml4.0-cil			install
+libmono-system4.0-cil				install
+libmono-web4.0-cil				install
 libmount1:amd64					install
 libmozjs185-1.0					install
 libmp3lame0:amd64				install
@@ -1440,6 +1489,8 @@ libncurses5-dev					install
 libncursesw5:amd64				install
 libncursesw5:i386				install
 libncursesw5-dev				install
+libndesk-dbus-glib1.0-cil			install
+libndesk-dbus1.0-cil				install
 libneon27-gnutls				install
 libnet-dns-perl					install
 libnet-domain-tld-perl				install
@@ -1452,6 +1503,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
 libnewt0.52					install
+libnewtonsoft-json4.5-cil			install
 libnfnetlink0					install
 libnice10:amd64					install
 libnih-dbus1:amd64				install
@@ -1465,6 +1517,7 @@ libnm-gtk-common				install
 libnm-gtk0					install
 libnm-util2					install
 libnotify-bin					install
+libnotify0.4-cil				install
 libnotify4:amd64				install
 libnspr4:amd64					install
 libnspr4:i386					install
@@ -1474,6 +1527,7 @@ libnss3:amd64					install
 libnss3:i386					install
 libnss3-1d:amd64				install
 libnuma1					install
+libnunit2.6-cil					install
 libnux-3.0-0					deinstall
 libnux-4.0-0					install
 libnux-4.0-common				install
@@ -1919,6 +1973,7 @@ libwmf0.2-7-gtk					install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwnck-common					install
+libwnck2.20-cil					install
 libwnck22					install
 libwpd-0.9-9					install
 libwpg-0.2-2					install
@@ -2113,6 +2168,7 @@ locales						install
 lockfile-progs					install
 login						install
 logrotate					install
+lrzsz						install
 lsb-base					install
 lsb-core					install
 lsb-invalid-mta					install
@@ -2150,6 +2206,9 @@ mlocate						install
 mobile-broadband-provider-info			install
 modemmanager					install
 module-init-tools				install
+mono-4.0-gac					install
+mono-gac					install
+mono-runtime					install
 mount						install
 mountall					install
 mousetweaks					install
@@ -2367,6 +2426,7 @@ python-httplib2					install
 python-ibus					install
 python-imaging					install
 python-imaging-compat				install
+python-keybinder				install
 python-keyring					install
 python-launchpadlib				install
 python-lazr.restfulclient			install
@@ -2435,6 +2495,7 @@ python-ubuntuone-storageprotocol		install
 python-urllib3					install
 python-utidylib					install
 python-vm-builder				install
+python-vte					install
 python-wadllib					install
 python-webob					install
 python-xapian					install
@@ -2637,6 +2698,7 @@ telepathy-logger				install
 telepathy-mission-control-5			install
 telepathy-salut					install
 telnet						install
+terminator					install
 tex-common					install
 tex-gyre					install
 texlive						install
@@ -2900,3 +2962,4 @@ zlib1g:amd64					install
 zlib1g:i386					install
 zlib1g-dev:amd64				install
 zsh						install
+zssh						install

@@ -1,6 +1,26 @@
-;; -*- emacs-lisp -*- <13/04/26 10:28:07 /home/anant/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <13/07/08 10:19:11 /home/anant/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["scpc" nil "C" nil]
-  nil))
+((["ssh" "anant" "vps" nil]
+  ("uname" "Linux 2.6.32-042stab063.2")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/usr/sbin" "/usr/local/bin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/home/anant")
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("stat" "\\stat")
+  ("ls" "/bin/ls --color=never")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("uid-integer" 1000)
+  ("gid-integer" 1000)
+  ("local-encoding" base64-encode-region)
+  ("local-decoding" base64-decode-region)
+  ("remote-encoding" "base64")
+  ("remote-decoding" "base64 -d -i")))
