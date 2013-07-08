@@ -264,6 +264,7 @@ erlang-webtool					install
 erlang-xmerl					install
 esound-common					install
 espeak-data:amd64				install
+ethtool						install
 evince						install
 evince-common					install
 evolution-data-server				install
@@ -632,6 +633,7 @@ indicator-appmenu				install
 indicator-bluetooth				install
 indicator-datetime				install
 indicator-messages				install
+indicator-multiload				install
 indicator-power					install
 indicator-printers				install
 indicator-session				install
@@ -2583,6 +2585,7 @@ signon-ui					install
 signond						install
 simple-scan					install
 sl						install
+smartmontools					install
 smbclient					install
 smlnj-runtime					deinstall
 smplayer					install
@@ -2668,6 +2671,8 @@ time						install
 tipa						install
 tk8.5						install
 tk8.5-lib:amd64					install
+tlp						install
+tlp-rdw						install
 toshset						install
 totem						install
 totem-common					install
@@ -2745,6 +2750,7 @@ unity-scope-gdrive				install
 unity-scope-musicstores				install
 unity-scope-video-remote			install
 unity-services					install
+unity-tweak-tool				install
 unity-webapps-common				install
 unity-webapps-service				install
 uno-libs3					install
