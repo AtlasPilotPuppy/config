@@ -2794,6 +2794,7 @@ ufraw-batch					install
 ufw						install
 unace						install
 unattended-upgrades				install
+unison						install
 unity						install
 unity-2d					install
 unity-asset-pool				install

@@ -8,6 +8,7 @@ then
     rsync -az --progress --exclude 'Downloads' --exclude 'M*' --exclude 'V*' --exclude 'P*' --exclude '*cache*' --exclude '*proton*' -r /home/anant/projects -vz -e ssh vps:~/
     rsync -az --progress  -r /home/anant/Downloads/ebooks -vz -e ssh vps:~/    
     mv git_bak/.git .
+    git add .emacs.d
     git commit -am "Commit for $(date)"
     git push origin master
     mv .git git_bak

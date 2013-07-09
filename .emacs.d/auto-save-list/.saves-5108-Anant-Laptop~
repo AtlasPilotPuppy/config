@@ -1,9 +1,11 @@
-/home/anant/projects/proton/proton/apps/contracts/admin/views.py
-/home/anant/projects/proton/proton/apps/contracts/admin/#views.py#
-/home/anant/projects/proton/proton/apps/contracts/admin/urls.py
-/home/anant/projects/proton/proton/apps/contracts/admin/#urls.py#
+/home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/pricingtier_list.html
+/home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/#pricingtier_list.html#
 /home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/pricingtiergroup_list.html
 /home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/#pricingtiergroup_list.html#
+/home/anant/projects/proton/proton/apps/contracts/admin/urls.py
+/home/anant/projects/proton/proton/apps/contracts/admin/#urls.py#
+/home/anant/projects/proton/proton/apps/contracts/admin/views.py
+/home/anant/projects/proton/proton/apps/contracts/admin/#views.py#
 /home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/pricingtiergroup_save_success.html
 /home/anant/projects/proton/proton/apps/contracts/templates/sources/admin/#pricingtiergroup_save_success.html#
 /home/anant/projects/proton/proton/apps/contracts/views/offers.py
