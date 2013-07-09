@@ -1,0 +1,6 @@
+/ssh:vps:/home/anant/update.sh
+#_assh_bvps_b_ahome_aanant_aupdate.sh#
+/home/anant/backup.sh
+/home/anant/#backup.sh#
+/ssh:vps:/home/anant/backup.sh
+#_assh_bvps_b_ahome_aanant_abackup.sh#
