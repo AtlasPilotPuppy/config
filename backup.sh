@@ -1,6 +1,7 @@
 #!/bin/bash
 if [ $# -eq 0 ]
 then
+    echo -e "\nstarting backup for  $(date)\n">> /home/anant/backup.log
     dpkg --get-selections > ~/Package.list
     sudo cp /etc/apt/sources.list ~/sources.list
     sudo apt-key exportall > ~/Repo.keys
@@ -12,6 +13,7 @@ then
     git commit -am "Commit for $(date)"
     git push origin master
     mv .git git_bak
+    echo -e "\nfinishing backup for  $(date)\n">> /home/anant/backup.log
 else
     if [$1 = 'restore']
     then
