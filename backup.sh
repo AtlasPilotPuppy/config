@@ -5,9 +5,9 @@ then
     dpkg --get-selections > ~/Package.list
     sudo cp /etc/apt/sources.list ~/sources.list
     sudo apt-key exportall > ~/Repo.keys
-    rsync -az --progress --exclude 'Downloads' --exclude 'Music' --exclude 'Videos' --exclude 'Public' --exclude 'Pictures' --exclude 'Mail' --exclude '*chromium*' --exclude '*thunderbird*' --exclude '*mozilla*'  --exclude '*cache*' -r /home/anant/ /media/anant/Seagate\ Backup\ Plus\ Drive/Backup/profile
-    rsync -az --progress --exclude 'Downloads' --exclude 'M*' --exclude 'V*' --exclude 'P*' --exclude '*cache*' --exclude '*proton*' -r /home/anant/projects -vz -e ssh vps:~/
-    rsync -az --progress  -r /home/anant/Downloads/ebooks -vz -e ssh vps:~/    
+    rsync -arWz --progress --exclude 'Downloads' --exclude 'Music' --exclude 'Videos' --exclude 'Public'  --exclude 'Mail' --exclude '*chromium*' --exclude '*thunderbird*' --exclude '*mozilla*'  --exclude '*cache*' -r /home/anant/ /media/anant/Seagate\ Backup\ Plus\ Drive/Backup/profile
+    rsync -arWz --progress --exclude 'Downloads' --exclude 'M*' --exclude 'V*' --exclude 'P*' --exclude '*cache*' --exclude '*proton*' -r /home/anant/projects -vz -e ssh vps:~/
+    rsync -arWz --progress  -r /home/anant/Downloads/ebooks -vz -e ssh vps:~/    
     mv git_bak/.git .
     git add .emacs.d
     git commit -am "Commit for $(date)"
