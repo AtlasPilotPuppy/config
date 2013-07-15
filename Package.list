@@ -11,7 +11,7 @@ account-plugin-twitter				install
 account-plugin-windows-live			install
 account-plugin-yahoo				install
 accountsservice					install
-ack-grep					install
+ack-grep					deinstall
 acl						install
 acpi-support					install
 acpid						install
@@ -139,7 +139,6 @@ colordiff					install
 comerr-dev					install
 command-not-found				install
 command-not-found-data				install
-compiz						install
 compiz-core					install
 compiz-gnome					install
 compiz-plugins					install
@@ -2138,6 +2137,8 @@ linux-headers-3.8.0-25				install
 linux-headers-3.8.0-25-generic			install
 linux-headers-3.8.0-26				install
 linux-headers-3.8.0-26-generic			install
+linux-headers-3.8.0-27				install
+linux-headers-3.8.0-27-generic			install
 linux-headers-generic				install
 linux-image-3.5.0-17-generic			deinstall
 linux-image-3.5.0-18-generic			deinstall
@@ -2149,6 +2150,7 @@ linux-image-3.8.0-22-generic			install
 linux-image-3.8.0-23-generic			install
 linux-image-3.8.0-25-generic			install
 linux-image-3.8.0-26-generic			install
+linux-image-3.8.0-27-generic			install
 linux-image-extra-3.5.0-17-generic		deinstall
 linux-image-extra-3.5.0-18-generic		deinstall
 linux-image-extra-3.5.0-19-generic		deinstall
@@ -2159,6 +2161,7 @@ linux-image-extra-3.8.0-22-generic		install
 linux-image-extra-3.8.0-23-generic		install
 linux-image-extra-3.8.0-25-generic		install
 linux-image-extra-3.8.0-26-generic		install
+linux-image-extra-3.8.0-27-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install
@@ -2759,7 +2762,6 @@ twolame						install
 tzdata						install
 tzdata-java					install
 ubuntu-artwork					install
-ubuntu-desktop					install
 ubuntu-docs					install
 ubuntu-drivers-common				install
 ubuntu-extras-keyring				install
@@ -2796,8 +2798,6 @@ ufw						install
 unace						install
 unattended-upgrades				install
 unison						install
-unity						install
-unity-2d					install
 unity-asset-pool				install
 unity-common					install
 unity-greeter					install
@@ -2814,7 +2814,6 @@ unity-scope-gdrive				install
 unity-scope-musicstores				install
 unity-scope-video-remote			install
 unity-services					install
-unity-tweak-tool				install
 unity-webapps-common				install
 unity-webapps-service				install
 uno-libs3					install

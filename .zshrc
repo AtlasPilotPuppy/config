@@ -45,7 +45,7 @@ alias less="less -R"
 
 alias ls="ls --color"
 
-alias ack="ack-grep --color"
+# alias ack="ack-grep --color"
 
 alias diff="colordiff"
 # Customize to your needs...
@@ -66,3 +66,4 @@ EDITOR="emacs"
 fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
 
 alias cdp="cd ~/projects/proton"
+
