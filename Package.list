@@ -88,11 +88,10 @@ ca-certificates					install
 cdbs						install
 checkbox					install
 checkbox-qt					install
-chromium-browser				install
-chromium-browser-l10n				install
-chromium-codecs-ffmpeg-extra			install
+chromium-browser				deinstall
 colord						install
 colordiff					install
+comerr-dev					install
 command-not-found				install
 command-not-found-data				install
 compiz						install
@@ -208,6 +207,7 @@ evince-common					install
 evolution-data-server				install
 evolution-data-server-common			install
 example-content					install
+exuberant-ctags					install
 fakeroot					install
 ffmpeg						install
 file						install
@@ -397,6 +397,7 @@ gnome-user-guide				install
 gnome-user-share				install
 gnomine						install
 gnupg						install
+google-chrome-stable				install
 gparted						install
 gpgv						install
 graphviz					install
@@ -511,7 +512,9 @@ kmod						install
 kpartx						install
 kpartx-boot					install
 krb5-locales					install
+krb5-multidev					install
 kvm-ipxe					install
+ladspa-sdk					install
 landscape-client-ui-install			install
 language-pack-en				install
 language-pack-en-base				install
@@ -784,6 +787,7 @@ libgcc1:amd64					install
 libgcc1:i386					install
 libgck-1-0					install
 libgconf-2-4:amd64				install
+libgconf2-4:amd64				install
 libgcr-3-1					install
 libgcr-3-common					install
 libgcrypt11:amd64				install
@@ -868,6 +872,7 @@ libgssapi-krb5-2:amd64				install
 libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
 libgssdp-1.0-3					install
+libgssrpc4:amd64				install
 libgstreamer-plugins-bad0.10-0:amd64		install
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
@@ -887,6 +892,7 @@ libgtkmm-2.4-1c2a:amd64				install
 libgtkmm-3.0-1:amd64				install
 libgtksourceview-3.0-0:amd64			install
 libgtksourceview-3.0-common			install
+libgtkspell0					install
 libgtop2-7					install
 libgtop2-common					install
 libgucharmap-2-90-7				install
@@ -970,7 +976,10 @@ libjson0:amd64					install
 libjte1						install
 libk5crypto3:amd64				install
 libk5crypto3:i386				install
+libkadm5clnt-mit8:amd64				install
+libkadm5srv-mit8:amd64				install
 libkate1					install
+libkdb5-6:amd64					install
 libkeybinder0					install
 libkeyutils1:amd64				install
 libkeyutils1:i386				install
@@ -980,6 +989,7 @@ libkpathsea6					install
 libkrb5-26-heimdal:amd64			install
 libkrb5-3:amd64					install
 libkrb5-3:i386					install
+libkrb5-dev					install
 libkrb5support0:amd64				install
 libkrb5support0:i386				install
 liblangtag-common				install
@@ -1089,6 +1099,7 @@ libopenvg1-mesa:amd64				install
 libopus0					install
 liborbit2:amd64					install
 liborc-0.4-0:amd64				install
+libossp-uuid16					install
 libp11-kit-gnome-keyring:amd64			install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
@@ -1141,6 +1152,7 @@ libportsmf0					install
 libpostproc52:amd64				install
 libppl-c4:amd64					install
 libppl12:amd64					install
+libpq-dev					install
 libpq5						install
 libprocps0:amd64				install
 libprotobuf7					install
@@ -1277,6 +1289,9 @@ libsqlite3-0:amd64				install
 libss2:amd64					install
 libssh-4:amd64					install
 libssh2-1:amd64					install
+libssl-dev					install
+libssl-doc					install
+libssl0.9.8:amd64				install
 libssl1.0.0:amd64				install
 libstartup-notification0:amd64			install
 libstdc++6:amd64				install
@@ -1322,6 +1337,7 @@ libtre5:amd64					install
 libts-0.0-0:amd64				install
 libtwolame0					install
 libtxc-dxtn-s2tc0:amd64				install
+libudev0:amd64					install
 libudev1:amd64					install
 libudisks2-0:amd64				install
 libufe-xidgetter0				install
@@ -1599,6 +1615,9 @@ pgadmin3					install
 pgadmin3-data					install
 pgagent						install
 pgf						install
+pidgin						install
+pidgin-data					install
+pidgin-libnotify				install
 pkg-config					install
 plymouth					install
 plymouth-label					install
@@ -1612,10 +1631,13 @@ policykit-desktop-privileges			install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
+postgresql					install
 postgresql-9.1					install
 postgresql-client-9.1				install
 postgresql-client-common			install
 postgresql-common				install
+postgresql-contrib				install
+postgresql-contrib-9.1				install
 powermgmt-base					install
 ppp						install
 pppconfig					install
@@ -1638,6 +1660,7 @@ protobuf-compiler				install
 ps2eps						install
 psmisc						install
 pulseaudio					install
+pulseaudio-equalizer				install
 pulseaudio-module-bluetooth			install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
@@ -1667,6 +1690,7 @@ python-egenix-mxtools				install
 python-gconf					install
 python-gi					install
 python-gi-cairo					install
+python-glade2					install
 python-gnome2					install
 python-gnomekeyring				install
 python-gobject					install
@@ -1711,6 +1735,7 @@ python-setuptools				install
 python-sip					install
 python-six					install
 python-smbc					install
+python-support					install
 python-tk					install
 python-twisted-bin				install
 python-twisted-core				install
@@ -1861,11 +1886,13 @@ software-properties-common			install
 software-properties-gtk				install
 sound-theme-freedesktop				install
 speech-dispatcher				install
+spotify-client					install
 ssh-askpass-gnome				install
 ssh-import-id					install
 ssl-cert					install
 strace						install
 sudo						install
+swh-plugins					install
 syslinux					install
 syslinux-common					install
 syslinux-legacy					install
@@ -1971,6 +1998,7 @@ udisks						install
 udisks2						install
 ufw						install
 unattended-upgrades				install
+unison						install
 unity						install
 unity-2d					install
 unity-asset-pool				install
@@ -2012,6 +2040,8 @@ uuid-runtime					install
 vbetool						install
 vgabios						install
 vim-common					install
+vim-nox						install
+vim-runtime					install
 vim-tiny					install
 vino						install
 virtualbox					install

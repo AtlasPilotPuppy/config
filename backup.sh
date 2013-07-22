@@ -8,11 +8,11 @@ then
     rsync -arWz --progress --exclude 'Downloads' --exclude 'Music' --exclude 'Videos' --exclude 'Public'  --exclude 'Mail' --exclude '*chromium*' --exclude '*thunderbird*' --exclude '*mozilla*'  --exclude '*cache*' -r /home/anant/ /media/anant/Seagate\ Backup\ Plus\ Drive/Backup/profile
     rsync -arWz --progress --exclude 'Downloads' --exclude 'M*' --exclude 'V*' --exclude 'P*' --exclude '*cache*' --exclude '*proton*' -r /home/anant/projects -vz -e ssh vps:~/
     rsync -arWz --progress  -r /home/anant/Downloads/ebooks -vz -e ssh vps:~/    
-    mv git_bak/.git .
+    mv /home/anant/git_bak/.git /home/anant/
     git add .emacs.d
     git commit -am "Commit for $(date)"
     git push origin master
-    mv .git git_bak
+    mv /home/anant/.git /home/anant/git_bak/
     echo -e "\nfinishing backup for  $(date)\n">> /home/anant/backup.log
 else
     if [$1 = 'restore']
