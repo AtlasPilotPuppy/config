@@ -3,7 +3,7 @@
 ;;; Code:
 
 
-;;;### (autoloads (pep8) "pep8" "pep8.el" (20840 29824))
+;;;### (autoloads (pep8) "pep8" "pep8.el" (20982 39389))
 ;;; Generated autoloads from pep8.el
 
 (autoload 'pep8 "pep8" "\
@@ -13,7 +13,7 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("pep8-pkg.el") (20840 29824 524841))
+;;;### (autoloads nil nil ("pep8-pkg.el") (20982 39389 51985))
 
 ;;;***
 

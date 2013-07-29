@@ -4,9 +4,9 @@
 
 ;; Author: Steve Purcell <steve@sanityinc.com>
 ;; URL: https://github.com/purcell/flymake-python-pyflakes
-;; Version: 20130410.939
+;; Version: 20130512.1844
 ;; X-Original-Version: DEV
-;; Package-Requires: ((flymake-easy "0.4"))
+;; Package-Requires: ((flymake-easy "0.8"))
 
 ;;; Commentary:
 
@@ -52,6 +52,20 @@
   :type '(repeat string)
   :group 'flymake-python-pyflakes)
 
+(defcustom flymake-python-pyflakes-extra-arguments nil
+  "Pyflakes executable to use for syntax checking."
+  :type '(repeat string)
+  :group 'flymake-python-pyflakes)
+
+(defcustom flymake-python-pyflakes-info-regex nil
+  "Regexp used to match messages to be display as informational.
+The flymake fork at https://github.com/illusori/emacs-flymake allows
+the display of 'info' lines which are neither warnings or errors.
+When that version of flymake is in use, this pattern determines
+which messages will be displayed in that way."
+  :type 'string
+  :group 'flymake-python-pyflakes)
+
 (defun flymake-python-pyflakes-command (filename)
   "Construct a command that flymake can use to syntax-check FILENAME."
   (append (list flymake-python-pyflakes-executable)
@@ -64,16 +78,18 @@
       "\\(^redefinition\\|.*unused.*\\|used$\\)"
     "^\\([WFCN]\\|E[0-7]\\)"))
 
+
 ;;;###autoload
 (defun flymake-python-pyflakes-load ()
   "Configure flymake mode to check the current buffer's python syntax using pyflakes."
   (interactive)
   (flymake-easy-load 'flymake-python-pyflakes-command
                      flymake-python-pyflakes-err-line-patterns
-                     'inplace
+                     'tempdir
                      "py"
                      (flymake-python-pyflakes-warn-regex
-                      flymake-python-pyflakes-executable)))
+                      flymake-python-pyflakes-executable)
+                     flymake-python-pyflakes-info-regex))
 
 (provide 'flymake-python-pyflakes)
 ;;; flymake-python-pyflakes.el ends here

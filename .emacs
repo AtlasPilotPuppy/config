@@ -31,13 +31,6 @@
 ;;             #'autopair-python-triple-quote-action))))
 
 
-;;pep8 and pylint
-(require 'python-pep8)
-(require 'python-pylint)
-
-;;Delete Trailing white space
-;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
-
 
 ;;white space mode
 (require 'whitespace)
@@ -132,58 +125,11 @@
 ;;pgsql 
 (require 'pg)
 
-;;;;pychecker && pyflakes
-
-'(py-pychecker-command "pychecker")
-'(py-pychecker-command-args (quote ("")))
-'(python-check-command "pychecker")
-
-
 ;;MELPA
 
 (add-to-list 'package-archives
   '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
-;;
-
-;;; virtual env stuff
-(require 'python)
-(setq python-shell-virtualenv-path "~/.virtualenvs")
-
-(defun python-shell-calculate-process-environment ()
-  "Calculate process environment given `python-shell-virtualenv-path'."
-  (let ((process-environment (append
-                              python-shell-process-environment
-                              process-environment nil))
-        (virtualenv (if python-shell-virtualenv-path
-                        (directory-file-name python-shell-virtualenv-path)
-                      nil)))
-    (when python-shell-extra-pythonpaths
-      (setenv "PYTHONPATH"
-              (format "%s%s%s"
-                      (mapconcat 'identity
-                                 python-shell-extra-pythonpaths
-                                 path-separator)
-                      path-separator
-                      (or (getenv "PYTHONPATH") ""))))
-    (if (not virtualenv)
-        process-environment
-      (setenv "PYTHONHOME" nil)
-      (setenv "PATH" (format "%s/bin%s%s"
-                             virtualenv path-separator
-                             (or (getenv "PATH") "")))
-      (setenv "VIRTUAL_ENV" virtualenv))
-    process-environment))
-
-(defun python-shell-calculate-exec-path ()
-  "Calculate exec path given `python-shell-virtualenv-path'."
-  (let ((path (append python-shell-exec-path
-                      exec-path nil)))
-    (if (not python-shell-virtualenv-path)
-        path
-      (cons (format "%s/bin"
-                    (directory-file-name python-shell-virtualenv-path))
-            path))))
 
 ;; previous window
 (global-set-key (kbd "C-x O") 'previous-multiframe-window)
@@ -202,3 +148,9 @@
       (append '(("\\.html?$" . django-html-mumamo-mode)) auto-mode-alist))
 (setq mumamo-background-colors nil) 
 (add-to-list 'auto-mode-alist '("\\.html$" . django-html-mumamo-mode))
+
+;;qml mode
+    (autoload 'qml-mode "qml-mode" "Editing Qt Declarative." t)
+    (add-to-list 'auto-mode-alist '("\\.qml$" . qml-mode))
+    (autoload 'qml-mode "qml-mode" "Editing Qt Declarative." t)
+    (add-to-list 'auto-mode-alist '("\\.qml$" . qml-mode))
