@@ -251,7 +251,7 @@ fonts-tlwg-umpush				install
 fonts-tlwg-waree				install
 foomatic-db-compressed-ppds			install
 foomatic-filters				install
-freepats					install
+freepats					deinstall
 freerdp-x11					install
 friendly-recovery				install
 friends						install
@@ -625,7 +625,7 @@ libcap2:amd64					install
 libcap2-bin					install
 libcaribou-common				install
 libcaribou0:amd64				install
-libcdaudio1					install
+libcdaudio1					deinstall
 libcddb2					install
 libcdio-cdda1					install
 libcdio-paranoia1				install
@@ -746,8 +746,7 @@ libfarstream-0.2-2:amd64			install
 libfdt1						install
 libffi6:amd64					install
 libffi6:i386					install
-libfftw3-3:amd64				install
-libfftw3-double3:amd64				install
+libfftw3-double3:amd64				deinstall
 libfftw3-single3:amd64				install
 libfile-basedir-perl				install
 libfile-copy-recursive-perl			install
@@ -873,7 +872,7 @@ libgssapi-krb5-2:i386				install
 libgssapi3-heimdal:amd64			install
 libgssdp-1.0-3					install
 libgssrpc4:amd64				install
-libgstreamer-plugins-bad0.10-0:amd64		install
+libgstreamer-plugins-bad0.10-0:amd64		deinstall
 libgstreamer-plugins-bad1.0-0:amd64		install
 libgstreamer-plugins-base0.10-0:amd64		install
 libgstreamer-plugins-base1.0-0:amd64		install
@@ -1086,11 +1085,11 @@ libnux-4.0-0					install
 libnux-4.0-common				install
 liboauth0:amd64					install
 libodbc1:amd64					install
-libofa0						install
+libofa0						deinstall
 libogg0:amd64					install
 liboil0.3:amd64					install
-libopenal-data					install
-libopenal1:amd64				install
+libopenal-data					deinstall
+libopenal1:amd64				deinstall
 libopencc1:amd64				install
 libopencore-amrnb0:amd64			install
 libopencore-amrwb0:amd64			install
@@ -1391,8 +1390,8 @@ libwebkitgtk-3.0-0				install
 libwebkitgtk-3.0-common				install
 libwebp4:amd64					install
 libwhoopsie0					install
-libwildmidi-config				install
-libwildmidi1:amd64				install
+libwildmidi-config				deinstall
+libwildmidi1:amd64				deinstall
 libwind0-heimdal:amd64				install
 libwmf0.2-7:amd64				install
 libwmf0.2-7-gtk					install
@@ -1476,7 +1475,7 @@ libxt6:amd64					install
 libxt6:i386					install
 libxtst6:amd64					install
 libxv1:amd64					install
-libxvidcore4:amd64				install
+libxvidcore4:amd64				deinstall
 libxvmc1					install
 libxxf86dga1:amd64				install
 libxxf86vm1:amd64				install
@@ -1543,6 +1542,7 @@ metacity					install
 metacity-common					install
 mime-support					install
 mlocate						install
+mmv						install
 mobile-broadband-provider-info			install
 modemmanager					install
 module-init-tools				install
@@ -1664,6 +1664,7 @@ pulseaudio-equalizer				install
 pulseaudio-module-bluetooth			install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
+pyflakes					install
 pylint						install
 python						install
 python-appindicator				install
