@@ -84,11 +84,14 @@ build-essential					install
 busybox-initramfs				install
 busybox-static					install
 bzip2						install
+c-repl						install
 ca-certificates					install
 cdbs						install
 checkbox					install
 checkbox-qt					install
-chromium-browser				deinstall
+chromium-browser				install
+chromium-browser-l10n				install
+chromium-codecs-ffmpeg-extra			install
 colord						install
 colordiff					install
 comerr-dev					install
@@ -122,6 +125,7 @@ cups-daemon					install
 cups-filters					install
 cups-pk-helper					install
 cups-ppdc					install
+curl						install
 dash						install
 dbus						install
 dbus-x11					install
@@ -1232,6 +1236,7 @@ librsvg2-2:amd64				install
 librsvg2-common:amd64				install
 librsync1:amd64					install
 librtmp0:amd64					install
+libruby						install
 libruby1.9.1					install
 libsamplerate0:amd64				install
 libsane:amd64					install
@@ -1608,6 +1613,7 @@ patchutils					install
 pciutils					install
 pcmciautils					install
 pep8						install
+pepflashplugin-installer			install
 perl						install
 perl-base					install
 perl-modules					install
@@ -1879,6 +1885,7 @@ signon-plugin-password				install
 signon-ui					install
 signond						install
 simple-scan					install
+sl						install
 smbclient					install
 sni-qt:amd64					install
 software-center					install
