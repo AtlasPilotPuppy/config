@@ -9,7 +9,7 @@ account-plugin-twitter				install
 account-plugin-windows-live			install
 account-plugin-yahoo				install
 accountsservice					install
-ack-grep					deinstall
+ack-grep					install
 acl						install
 acpi-support					install
 acpid						install
@@ -97,6 +97,7 @@ colordiff					install
 comerr-dev					install
 command-not-found				install
 command-not-found-data				install
+compiz						install
 compiz-core					install
 compiz-gnome					install
 compiz-plugins					install
@@ -1976,6 +1977,7 @@ ttf-ubuntu-font-family				install
 ttf-wqy-microhei				install
 tzdata						install
 ubuntu-artwork					install
+ubuntu-desktop					install
 ubuntu-docs					install
 ubuntu-drivers-common				install
 ubuntu-extras-keyring				install
@@ -2005,6 +2007,8 @@ udisks2						install
 ufw						install
 unattended-upgrades				install
 unison						install
+unity						install
+unity-2d					install
 unity-asset-pool				install
 unity-common					install
 unity-greeter					install
