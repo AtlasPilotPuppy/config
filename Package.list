@@ -86,6 +86,7 @@ busybox-static					install
 bzip2						install
 c-repl						install
 ca-certificates					install
+ca-certificates-java				install
 cdbs						install
 checkbox					install
 checkbox-qt					install
@@ -471,6 +472,7 @@ ibus-gtk3:amd64					install
 ibus-pinyin					install
 ibus-pinyin-db-android				install
 ibus-table					install
+icedtea-7-jre-jamvm:amd64			install
 iftop						install
 ifupdown					install
 im-config					install
@@ -507,6 +509,7 @@ isc-dhcp-client					install
 isc-dhcp-common					install
 iso-codes					install
 iw						install
+java-common					install
 kbd						install
 kerneloops-daemon				install
 keyboard-configuration				install
@@ -561,6 +564,8 @@ libasyncns0:amd64				install
 libatasmart4:amd64				install
 libatk-adaptor:amd64				install
 libatk-bridge2.0-0:amd64			install
+libatk-wrapper-java				install
+libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
 libatk1.0-0:i386				install
 libatk1.0-data					install
@@ -811,6 +816,7 @@ libgettextpo0:amd64				install
 libgexiv2-2					install
 libgfortran-4.7-dev:amd64			install
 libgfortran3:amd64				install
+libgif4:amd64					install
 libgirepository-1.0-1				install
 libgjs0c					install
 libgksu2-0					install
@@ -931,6 +937,7 @@ libhyphen0					install
 libibus-1.0-0:amd64				install
 libical0					install
 libicc2:amd64					install
+libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
 libicu48:amd64					install
@@ -1165,6 +1172,8 @@ libproxy1-plugin-gsettings:amd64		install
 libproxy1-plugin-networkmanager:amd64		install
 libptexenc1					install
 libpth20					install
+libpthread-stubs0:amd64				install
+libpthread-stubs0-dev:amd64			install
 libpulse-mainloop-glib0:amd64			install
 libpulse0:amd64					install
 libpulsedsp:amd64				install
@@ -1271,6 +1280,7 @@ libsignon-qt1					install
 libsigsegv2					install
 libslang2:amd64					install
 libslv2-9					deinstall
+libsm-dev:amd64					install
 libsm6:amd64					install
 libsm6:i386					install
 libsmbclient:amd64				install
@@ -1415,11 +1425,14 @@ libwxgtk2.8-0:amd64				install
 libx11-6:amd64					install
 libx11-6:i386					install
 libx11-data					install
+libx11-dev:amd64				install
+libx11-doc					install
 libx11-xcb1:amd64				install
 libx264-123:amd64				install
 libx86-1:amd64					install
 libxapian22					install
 libxatracker1:amd64				install
+libxau-dev:amd64				install
 libxau6:amd64					install
 libxau6:i386					install
 libxaw7:amd64					install
@@ -1438,12 +1451,14 @@ libxcb-xfixes0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
+libxcb1-dev:amd64				install
 libxcomposite1:amd64				install
 libxcomposite1:i386				install
 libxcursor1:amd64				install
 libxcursor1:i386				install
 libxdamage1:amd64				install
 libxdamage1:i386				install
+libxdmcp-dev:amd64				install
 libxdmcp6:amd64					install
 libxdmcp6:i386					install
 libxen-4.2					install
@@ -1476,6 +1491,7 @@ libxrender1:i386				install
 libxres1:amd64					install
 libxslt1.1:amd64				install
 libxss1:amd64					install
+libxt-dev:amd64					install
 libxt6:amd64					install
 libxt6:i386					install
 libxtst6:amd64					install
@@ -1597,6 +1613,10 @@ obexd-client					install
 onboard						install
 oneconf						install
 oneconf-common					install
+openjdk-7-jdk:amd64				install
+openjdk-7-jre:amd64				install
+openjdk-7-jre-headless:amd64			install
+openjdk-7-jre-lib				install
 openoffice.org-hyphenation			install
 openprinting-ppds				install
 openssh-client					install
@@ -1969,6 +1989,7 @@ transmission-gtk				install
 tree						install
 tsconf						install
 ttf-dejavu-core					install
+ttf-dejavu-extra				install
 ttf-indic-fonts-core				install
 ttf-liberation					install
 ttf-marvosym					install
@@ -1976,6 +1997,7 @@ ttf-punjabi-fonts				install
 ttf-ubuntu-font-family				install
 ttf-wqy-microhei				install
 tzdata						install
+tzdata-java					install
 ubuntu-artwork					install
 ubuntu-desktop					install
 ubuntu-docs					install
@@ -2078,6 +2100,9 @@ x11-utils					install
 x11-xfs-utils					install
 x11-xkb-utils					install
 x11-xserver-utils				install
+x11proto-core-dev				install
+x11proto-input-dev				install
+x11proto-kb-dev					install
 xauth						install
 xbitmaps					install
 xcursor-themes					install
@@ -2096,6 +2121,7 @@ xkb-data					install
 xml-core					install
 xorg						install
 xorg-docs-core					install
+xorg-sgml-doctools				install
 xserver-common					install
 xserver-xephyr					install
 xserver-xorg					install
@@ -2130,6 +2156,7 @@ xserver-xorg-video-trident			install
 xserver-xorg-video-vesa				install
 xserver-xorg-video-vmware			install
 xterm						install
+xtrans-dev					install
 xul-ext-ubufox					install
 xul-ext-unity					install
 xul-ext-webaccounts				install
