@@ -41,8 +41,6 @@ source $ZSH/oh-my-zsh.sh
 alias emacs="emacs -nw"
 alias emacsclient="emacsclient -nw"
 
-alias less="less -R"
-
 alias ls="ls --color"
 
 # alias ack="ack-grep --color"
@@ -53,13 +51,13 @@ export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
 
 source /usr/local/bin/virtualenvwrapper.sh
 
-mkcd() { mkdir -p $1 && cd $1; }
+mkcd() { mkdir -p "$@" && eval cd "\"\$$#\""; }
 
 mktags() {  ctags-exuberant -e -R --languages=Python,HTML,JavaScript --exclude="__init__.py"}
 ##
 export BC_ENV_ARGS=~/.bcrc
 
-EDITOR="emacs"
+EDITOR="vim"
 
 ## random_fun_fact
 
@@ -67,3 +65,8 @@ fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
 
 alias cdp="cd ~/projects/proton"
 
+#less pips source highlight
+
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+
+export LESS=' -R'

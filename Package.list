@@ -19,7 +19,7 @@ activity-log-manager-common			install
 activity-log-manager-control-center		install
 adduser						install
 adium-theme-ubuntu				install
-aisleriot					install
+aisleriot					deinstall
 alsa-base					install
 alsa-utils					install
 anacron						install
@@ -53,6 +53,7 @@ audacity					install
 audacity-data					install
 autoconf					install
 automake					install
+autopoint					install
 autotools-dev					install
 avahi-autoipd					install
 avahi-daemon					install
@@ -143,6 +144,7 @@ deja-dup-backend-gvfs				install
 deja-dup-backend-ubuntuone			install
 desktop-file-utils				install
 dh-apparmor					install
+dh-autoreconf					install
 dh-translations					install
 dialog						install
 dictionaries-common				install
@@ -603,7 +605,11 @@ libbonobo2-common				install
 libbonoboui2-0:amd64				install
 libbonoboui2-common				install
 libboost-date-time1.49.0			install
+libboost-regex-dev				install
+libboost-regex1.49-dev				install
+libboost-regex1.49.0				install
 libboost-thread1.49.0				install
+libboost1.49-dev				install
 libbrasero-media3-1				install
 libbrlapi0.5:amd64				install
 libbsd0:amd64					install
@@ -800,9 +806,11 @@ libgcr-3-1					install
 libgcr-3-common					install
 libgcrypt11:amd64				install
 libgcrypt11:i386				install
+libgcrypt11-dev					install
 libgd2-xpm:amd64				install
 libgdata-common					install
 libgdata13					install
+libgdbm-dev					install
 libgdbm3:amd64					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				install
@@ -855,11 +863,15 @@ libgnomeui-0:amd64				install
 libgnomeui-common				install
 libgnomevfs2-0:amd64				install
 libgnomevfs2-common				install
+libgnutls-dev					install
+libgnutls-openssl27:amd64			install
 libgnutls26:amd64				install
 libgnutls26:i386				install
+libgnutlsxx27:amd64				install
 libgoa-1.0-0:amd64				install
 libgoa-1.0-common				install
 libgomp1:amd64					install
+libgpg-error-dev				install
 libgpg-error0:amd64				install
 libgpg-error0:i386				install
 libgpgme11					install
@@ -875,6 +887,8 @@ libgraphite3					install
 libgrip0					install
 libgs9						install
 libgs9-common					install
+libgsasl7					install
+libgsasl7-dev					install
 libgsm1:amd64					install
 libgsoap2					install
 libgssapi-krb5-2:amd64				install
@@ -940,6 +954,7 @@ libicc2:amd64					install
 libice-dev:amd64				install
 libice6:amd64					install
 libice6:i386					install
+libicu-dev					install
 libicu48:amd64					install
 libicu48:i386					install
 libid3tag0					install
@@ -947,6 +962,7 @@ libidl-common					install
 libidl0:amd64					install
 libidn11:amd64					install
 libidn11:i386					install
+libidn11-dev					install
 libido3-0.1-0:amd64				install
 libiec61883-0:amd64				install
 libieee1284-3:amd64				install
@@ -1009,6 +1025,7 @@ liblapack3					install
 liblcms1:amd64					install
 liblcms2-2:amd64				install
 libldap-2.4-2:amd64				install
+libldap2-dev:amd64				install
 liblightdm-gobject-1-0				install
 liblinear-tools					install
 liblinear1					install
@@ -1019,6 +1036,7 @@ liblockfile-bin					install
 liblockfile1:amd64				install
 liblouis-data					install
 liblouis2:amd64					install
+libltdl-dev:amd64				install
 libltdl7:amd64					install
 liblua5.1-0:amd64				install
 liblvm2app2.2:amd64				install
@@ -1032,6 +1050,7 @@ libmad0:amd64					install
 libmagic1:amd64					install
 libmail-sendmail-perl				install
 libmailtools-perl				install
+libmailutils4					install
 libmatroska5:amd64				install
 libmeanwhile1					install
 libmessaging-menu0				install
@@ -1057,6 +1076,7 @@ libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
 libmutter0a					install
+libmysqlclient18:amd64				install
 libmythes-1.2-0					install
 libnatpmp1					install
 libnautilus-extension1a				install
@@ -1091,6 +1111,8 @@ libnspr4-0d:amd64				install
 libnss-mdns					install
 libnss3:amd64					install
 libnss3-1d:amd64				install
+libntlm0					install
+libntlm0-dev					install
 libnuma1					install
 libnux-4.0-0					install
 libnux-4.0-common				install
@@ -1110,6 +1132,7 @@ libopus0					install
 liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 libossp-uuid16					install
+libp11-kit-dev					install
 libp11-kit-gnome-keyring:amd64			install
 libp11-kit0:amd64				install
 libp11-kit0:i386				install
@@ -1123,6 +1146,7 @@ libpam-modules-bin				install
 libpam-runtime					install
 libpam-xdg-support:amd64			install
 libpam0g:amd64					install
+libpam0g-dev:amd64				install
 libpango-perl					install
 libpango1.0-0:amd64				install
 libpango1.0-0:i386				install
@@ -1292,6 +1316,8 @@ libsonic0:amd64					install
 libsoundtouch0:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
+libsource-highlight-common			install
+libsource-highlight4				install
 libsoxr0:amd64					install
 libspandsp2					install
 libspectre1:amd64				install
@@ -1326,6 +1352,7 @@ libtalloc2:amd64				install
 libtar0						install
 libtasn1-3:amd64				install
 libtasn1-3:i386					install
+libtasn1-3-dev					install
 libtdb1:amd64					install
 libtelepathy-farstream3:amd64			install
 libtelepathy-glib0:amd64			install
@@ -1345,6 +1372,7 @@ libtimedate-perl				install
 libtimezonemap1					install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
+libtool						install
 libtotem-plparser17				install
 libtotem0					install
 libtre5:amd64					install
@@ -1547,6 +1575,8 @@ ltrace						install
 luatex						install
 lvm2						install
 m4						install
+mailutils					install
+mailutils-common				install
 make						install
 makedev						install
 man-db						install
@@ -1579,6 +1609,7 @@ mutter-common					install
 myspell-en-au					install
 myspell-en-gb					install
 myspell-en-za					install
+mysql-common					install
 mythes-en-us					deinstall
 nano						install
 nautilus					install
@@ -1637,9 +1668,7 @@ pepflashplugin-installer			install
 perl						install
 perl-base					install
 perl-modules					install
-pgadmin3					install
-pgadmin3-data					install
-pgagent						install
+pgadmin3					deinstall
 pgf						install
 pidgin						install
 pidgin-data					install
@@ -1657,6 +1686,7 @@ policykit-desktop-privileges			install
 poppler-data					install
 poppler-utils					install
 popularity-contest				install
+postfix						deinstall
 postgresql					install
 postgresql-9.1					install
 postgresql-client-9.1				install
@@ -1680,6 +1710,7 @@ printer-driver-ptouch				install
 printer-driver-pxljr				install
 printer-driver-sag-gdi				install
 printer-driver-splix				install
+procmail					install
 procps						install
 prosper						install
 protobuf-compiler				install
@@ -1892,6 +1923,11 @@ screen						install
 seabios						install
 seahorse					install
 sed						install
+sendmail					install
+sendmail-base					install
+sendmail-bin					install
+sendmail-cf					install
+sensible-mda					install
 sensible-utils					install
 session-migration				install
 sessioninstaller				install
@@ -1913,6 +1949,7 @@ software-center-aptdaemon-plugins		install
 software-properties-common			install
 software-properties-gtk				install
 sound-theme-freedesktop				install
+source-highlight				install
 speech-dispatcher				install
 spotify-client					install
 ssh-askpass-gnome				install
@@ -1950,6 +1987,7 @@ telnet						install
 terminator					install
 tex-common					install
 tex-gyre					install
+texinfo						install
 texlive						install
 texlive-base					install
 texlive-binaries				install
@@ -1968,11 +2006,7 @@ texlive-luatex					install
 texlive-pstricks				install
 texlive-pstricks-doc				install
 thin-client-config-agent			install
-thunderbird					install
-thunderbird-globalmenu				install
-thunderbird-gnome-support			install
-thunderbird-locale-en				install
-thunderbird-locale-en-us			install
+thunderbird					deinstall
 tidy						install
 time						install
 tipa						install
@@ -2046,7 +2080,7 @@ unity-scope-gdrive				install
 unity-scope-musicstores				install
 unity-scope-video-remote			install
 unity-services					install
-unity-webapps-common				install
+unity-webapps-common				deinstall
 unity-webapps-service				install
 uno-libs3					install
 unzip						install
