@@ -1,3 +1,4 @@
+(setq-default indent-tabs-mode nil)
 (add-to-list 'load-path "/home/anant/.emacs.d")
 (require 'python-mode)
   (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
@@ -141,16 +142,3 @@
 ;; trampmode setup
 
 (setq tramp-default-method "ssh")
-
-;;Django nXml mode
-(autoload 'django-html-mumamo-mode "~/.emacs.d/nxhtml/autostart22.el")
-(setq auto-mode-alist
-      (append '(("\\.html?$" . django-html-mumamo-mode)) auto-mode-alist))
-(setq mumamo-background-colors nil) 
-(add-to-list 'auto-mode-alist '("\\.html$" . django-html-mumamo-mode))
-
-;;qml mode
-    (autoload 'qml-mode "qml-mode" "Editing Qt Declarative." t)
-    (add-to-list 'auto-mode-alist '("\\.qml$" . qml-mode))
-    (autoload 'qml-mode "qml-mode" "Editing Qt Declarative." t)
-    (add-to-list 'auto-mode-alist '("\\.qml$" . qml-mode))

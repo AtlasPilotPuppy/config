@@ -501,6 +501,7 @@ intltool-debian					install
 iotop						install
 iproute						install
 iptables					install
+iptraf						install
 iputils-arping					install
 iputils-ping					install
 iputils-tracepath				install
@@ -523,6 +524,7 @@ kpartx-boot					install
 krb5-locales					install
 krb5-multidev					install
 kvm-ipxe					install
+l2tp-ipsec-vpn-daemon				install
 ladspa-sdk					install
 landscape-client-ui-install			install
 language-pack-en				install
@@ -677,6 +679,7 @@ libcroco3:amd64					install
 libcrypt-passwdmd5-perl				install
 libcryptsetup4					install
 libcrystalhd3:amd64				install
+libctemplate2					install
 libcups2:amd64					install
 libcups2:i386					install
 libcupscgi1:amd64				install
@@ -742,6 +745,7 @@ libemail-valid-perl				install
 libenca0					install
 libenchant1c2a					install
 libencode-locale-perl				install
+libengine-pkcs11-openssl			install
 liberror-perl					install
 libespeak1:amd64				install
 libev4						install
@@ -1089,6 +1093,7 @@ libnet-domain-tld-perl				install
 libnet-http-perl				install
 libnet-ip-perl					install
 libnet-ssleay-perl				install
+libnet1						install
 libnetfilter-conntrack3:amd64			install
 libnettle4:amd64				install
 libnewt0.52					install
@@ -1132,6 +1137,7 @@ libopus0					install
 liborbit2:amd64					install
 liborc-0.4-0:amd64				install
 libossp-uuid16					install
+libp11-2:amd64					install
 libp11-kit-dev					install
 libp11-kit-gnome-keyring:amd64			install
 libp11-kit0:amd64				install
@@ -1630,6 +1636,7 @@ network-manager					install
 network-manager-gnome				install
 network-manager-pptp				install
 network-manager-pptp-gnome			install
+ngrep						install
 nmap						install
 nodejs						install
 notify-osd					install
@@ -1653,6 +1660,7 @@ openprinting-ppds				install
 openssh-client					install
 openssh-server					install
 openssl						install
+openswan					install
 os-prober					install
 overlay-scrollbar				install
 overlay-scrollbar-gtk2:amd64			install
@@ -1721,6 +1729,7 @@ pulseaudio-equalizer				install
 pulseaudio-module-bluetooth			install
 pulseaudio-module-x11				install
 pulseaudio-utils				install
+pv						install
 pyflakes					install
 pylint						install
 python						install
@@ -2152,6 +2161,7 @@ xfonts-utils					install
 xinit						install
 xinput						install
 xkb-data					install
+xl2tpd						install
 xml-core					install
 xorg						install
 xorg-docs-core					install
