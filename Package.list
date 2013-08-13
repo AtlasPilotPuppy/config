@@ -1556,13 +1556,17 @@ linux-headers-3.8.0-26				install
 linux-headers-3.8.0-26-generic			install
 linux-headers-3.8.0-27				install
 linux-headers-3.8.0-27-generic			install
+linux-headers-3.8.0-28				install
+linux-headers-3.8.0-28-generic			install
 linux-headers-generic				install
 linux-image-3.8.0-19-generic			install
 linux-image-3.8.0-26-generic			install
 linux-image-3.8.0-27-generic			install
+linux-image-3.8.0-28-generic			install
 linux-image-extra-3.8.0-19-generic		install
 linux-image-extra-3.8.0-26-generic		install
 linux-image-extra-3.8.0-27-generic		install
+linux-image-extra-3.8.0-28-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install

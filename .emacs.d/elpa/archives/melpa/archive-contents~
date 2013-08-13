@@ -1490,7 +1490,7 @@
 		(21 0)))
 	      "Integrates Readme.org and Commentary/Change-logs. [github]" tar])
  (org-protocol-jekyll .
-		      [(20130718 1243)
+		      [(20130809 1701)
 		       nil "Jekyll's handler for org-protocol [github]" single])
  (org-present .
 	      [(20130426 2049)
@@ -2769,7 +2769,7 @@
 	  [(20120914 2148)
 	   nil "Paste to play.golang.org [github]" single])
  (go-mode .
-	  [(20130808 1554)
+	  [(20130809 856)
 	   nil "Major mode for the Go programming language [hg]" tar])
  (go-errcheck .
 	      [(20130308 1757)
@@ -3123,7 +3123,7 @@
 			      (24 1)))
 			    "Change mode line color with Flycheck status [github]" single])
  (flycheck .
-	   [(20130806 2030)
+	   [(20130809 1655)
 	    ((s
 	      (1 6 0))
 	     (dash
@@ -3330,7 +3330,7 @@
 	    (1 0)))
 	  "A collection of emacs utilities [github]" tar])
  (ert-runner .
-	     [(20130730 919)
+	     [(20130809 1703)
 	      ((s
 		(1 6 1))
 	       (dash
@@ -3593,7 +3593,7 @@
 	   [(20130616 1455)
 	    nil "Extensions for Edebug [github]" single])
  (edbi .
-       [(20130628 1458)
+       [(20130809 556)
 	((concurrent
 	  (0 3 1))
 	 (ctable
@@ -3909,7 +3909,7 @@
 		   (0 6 8)))
 		 "company-mode completion back-end for CMake [github]" tar])
  (company .
-	  [(20130806 2026)
+	  [(20130809 1716)
 	   nil "Modular in-buffer completion framework [github]" tar])
  (commander .
 	    [(20130731 1431)
@@ -4035,7 +4035,7 @@
 		       [(20100310 1348)
 			nil "cursor stays vertically centered [wiki]" single])
  (cask .
-       [(20130809 1231)
+       [(20130809 1545)
 	nil "Emacs dependency management made easy [github]" tar])
  (capture .
 	  [(20130710 942)
