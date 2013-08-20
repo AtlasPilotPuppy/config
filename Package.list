@@ -405,6 +405,7 @@ gnome-user-share				install
 gnomine						install
 gnupg						install
 google-chrome-stable				install
+google-talkplugin				install
 gparted						install
 gpgv						install
 graphviz					install
@@ -1176,6 +1177,7 @@ libperl5.14					install
 libpipeline1:amd64				install
 libpixman-1-0:amd64				install
 libpixman-1-0:i386				install
+libpkcs11-helper1:amd64				install
 libplist1					install
 libplymouth2:amd64				install
 libpng12-0:amd64				install
@@ -1558,15 +1560,19 @@ linux-headers-3.8.0-27				install
 linux-headers-3.8.0-27-generic			install
 linux-headers-3.8.0-28				install
 linux-headers-3.8.0-28-generic			install
+linux-headers-3.8.0-29				install
+linux-headers-3.8.0-29-generic			install
 linux-headers-generic				install
 linux-image-3.8.0-19-generic			install
 linux-image-3.8.0-26-generic			install
 linux-image-3.8.0-27-generic			install
 linux-image-3.8.0-28-generic			install
+linux-image-3.8.0-29-generic			install
 linux-image-extra-3.8.0-19-generic		install
 linux-image-extra-3.8.0-26-generic		install
 linux-image-extra-3.8.0-27-generic		install
 linux-image-extra-3.8.0-28-generic		install
+linux-image-extra-3.8.0-29-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install
@@ -1665,6 +1671,7 @@ openssh-client					install
 openssh-server					install
 openssl						install
 openswan					install
+openvpn						install
 os-prober					install
 overlay-scrollbar				install
 overlay-scrollbar-gtk2:amd64			install
