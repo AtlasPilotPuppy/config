@@ -87,7 +87,6 @@ busybox-static					install
 bzip2						install
 c-repl						install
 ca-certificates					install
-ca-certificates-java				install
 cdbs						install
 checkbox					install
 checkbox-qt					install
@@ -475,7 +474,6 @@ ibus-gtk3:amd64					install
 ibus-pinyin					install
 ibus-pinyin-db-android				install
 ibus-table					install
-icedtea-7-jre-jamvm:amd64			install
 iftop						install
 ifupdown					install
 im-config					install
@@ -569,8 +567,6 @@ libasyncns0:amd64				install
 libatasmart4:amd64				install
 libatk-adaptor:amd64				install
 libatk-bridge2.0-0:amd64			install
-libatk-wrapper-java				install
-libatk-wrapper-java-jni:amd64			install
 libatk1.0-0:amd64				install
 libatk1.0-0:i386				install
 libatk1.0-data					install
@@ -1661,10 +1657,6 @@ obexd-client					install
 onboard						install
 oneconf						install
 oneconf-common					install
-openjdk-7-jdk:amd64				install
-openjdk-7-jre:amd64				install
-openjdk-7-jre-headless:amd64			install
-openjdk-7-jre-lib				install
 openoffice.org-hyphenation			install
 openprinting-ppds				install
 openssh-client					install

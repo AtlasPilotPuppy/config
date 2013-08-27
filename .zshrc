@@ -36,6 +36,8 @@ plugins=(git python pip command-not-found git-extras virtualenvwrapper urltools 
 
 export ALTERNATE_EDITOR=""
 
+export JAVA_HOME=/opt/jdk
+
 source $ZSH/oh-my-zsh.sh
 
 alias emacs="emacs -nw"
@@ -47,7 +49,7 @@ alias ls="ls --color"
 
 alias diff="colordiff"
 # Customize to your needs...
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/jdk/bin
 
 source /usr/local/bin/virtualenvwrapper.sh
 
