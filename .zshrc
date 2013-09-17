@@ -49,7 +49,7 @@ alias ls="ls --color"
 
 alias diff="colordiff"
 # Customize to your needs...
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/jdk/bin
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/jdk/bin:$HADOOP_HOME/bin
 
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -65,6 +65,8 @@ EDITOR="vim"
 
 fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
 
+excuse(){elinks -dump developerexcuses.com| grep '\[2\]'| sed -e 's/^[ \t]*//' -e 's/\[2\]//g' }
+
 alias cdp="cd ~/projects/proton"
 
 #less pips source highlight
@@ -72,3 +74,5 @@ alias cdp="cd ~/projects/proton"
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 
 export LESS=' -R'
+
+export HADOOP_HOME='/usr/local/hadoop'
