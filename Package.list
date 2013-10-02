@@ -411,6 +411,7 @@ gnome-icon-theme-full				install
 gnome-icon-theme-symbolic			install
 gnome-keyring					install
 gnome-mahjongg					install
+gnome-media					install
 gnome-menus					install
 gnome-mines					install
 gnome-orca					install
@@ -945,6 +946,7 @@ libgnome-control-center1			install
 libgnome-desktop-3-4				install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
+libgnome-media-profiles-3.0-0			install
 libgnome-menu-3-0				install
 libgnome2-0:amd64				install
 libgnome2-bin					install
