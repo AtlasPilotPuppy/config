@@ -541,7 +541,7 @@
   ("reverse_index_offer_locations" .
    [0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("lead_dict" .
-   [4 0 0 0 0 0 0 0 0])
+   [3 0 0 0 0 0 0 0 0])
   ("enumerate" .
    [1 0 0 0 0 0 0 0 0])
   ("lead_to_dict" .
