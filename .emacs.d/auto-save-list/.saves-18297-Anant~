@@ -1,0 +1,6 @@
+/etc/sysctl.conf
+/etc/#sysctl.conf#
+/etc/redis/redis.conf
+/etc/redis/#redis.conf#
+/etc/redis/sentinel.conf
+/etc/redis/#sentinel.conf#

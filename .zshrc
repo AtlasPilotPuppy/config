@@ -32,11 +32,11 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python pip command-not-found git-extras virtualenvwrapper urltools zsh-syntax-highlighting cpv history-substring-search)
+plugins=(git python pip command-not-found git-extras virtualenvwrapper urltools zsh-syntax-highlighting cpv history-substring-search cp copyfile copydir git-prompt)
+
+PROMPT='%B%m%~%b$(git_super_status) %# '
 
 export ALTERNATE_EDITOR=""
-
-export JAVA_HOME=/opt/jdk
 
 source $ZSH/oh-my-zsh.sh
 
@@ -45,11 +45,12 @@ alias emacsclient="emacsclient -nw"
 
 alias ls="ls --color"
 
-# alias ack="ack-grep --color"
+alias ack="ack-grep --color"
+
+alias ackpy="ack-grep --color --py"
 
 alias diff="colordiff"
 # Customize to your needs...
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/jdk/bin:$HADOOP_HOME/bin
 
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -69,6 +70,8 @@ excuse(){elinks -dump developerexcuses.com| grep '\[2\]'| sed -e 's/^[ \t]*//' -
 
 alias cdp="cd ~/projects/proton"
 
+alias cdb="cd ~/projects/BackcountrySkiBlog"
+
 #less pips source highlight
 
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
@@ -76,3 +79,24 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R'
 
 export HADOOP_HOME='/usr/local/hadoop'
+
+calc(){ echo "scale=4;$@" | bc;}
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+#EC2 stuf
+export AWS_ACCESS_KEY=AKIAJJU6SHFSTTLKIPNA
+export AWS_SECRET_KEY=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
+export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_51/
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.6.13.0
+export PATH=$PATH:$EC2_HOME/bin 
+export EC2_URL=https://search-reddit-cloudsearch-7xlvxu43zunfqclx55y5ycpj6a.us-west-2.cloudsearch.amazonaws.com
+
+
+PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$HADOOP_HOME/bin:$JAVA_HOME/bin/java
+PATH=$PATH:/home/anant/projects/phantomjs-1.9.7-linux-x86_64/bin/phantomjs
+
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
+
+export HBASE_HOME=/usr/lib/hbase/hbase-0.94.8

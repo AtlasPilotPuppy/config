@@ -142,3 +142,21 @@
 ;; trampmode setup
 
 (setq tramp-default-method "ssh")
+
+
+;; go mode
+
+(require 'go-mode-load)
+(add-hook 'before-save-hook 'gofmt-before-save)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(safe-local-variable-values (quote ((test-case-name . twisted\.protocols\.test\.test_basic)))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

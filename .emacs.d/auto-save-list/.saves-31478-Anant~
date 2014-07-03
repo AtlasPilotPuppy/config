@@ -1,0 +1,8 @@
+/usr/local/hadoop/etc/hadoop/hadoop-env.sh
+/usr/local/hadoop/etc/hadoop/#hadoop-env.sh#
+/usr/local/hadoop/etc/hadoop/hdfs-site.xml
+/usr/local/hadoop/etc/hadoop/#hdfs-site.xml#
+/usr/local/hadoop/etc/hadoop/yarn-env.sh
+/usr/local/hadoop/etc/hadoop/#yarn-env.sh#
+/usr/local/hadoop/etc/hadoop/core-site.xml
+/usr/local/hadoop/etc/hadoop/#core-site.xml#
