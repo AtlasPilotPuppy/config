@@ -109,7 +109,7 @@
 ;;elpy
 
 (package-initialize)
-(elpy-enable)
+;; (elpy-enable)
 
 ;;iy-go-to-char
 

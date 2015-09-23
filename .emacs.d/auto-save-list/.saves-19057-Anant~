@@ -1,0 +1,4 @@
+/etc/NetworkManager/system-connections/gogoinflight
+/etc/NetworkManager/system-connections/#gogoinflight#
+/etc/NetworkManager/dispatcher.d/01ifupdown
+/etc/NetworkManager/dispatcher.d/#01ifupdown#

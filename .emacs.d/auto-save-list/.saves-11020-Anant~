@@ -1,0 +1,8 @@
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/create_orc_tblMain.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/#create_orc_tblMain.hql#
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/create_orc_tblPop.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/#create_orc_tblPop.hql#
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/create_table_tblMarkets.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/#create_table_tblMarkets.hql#
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/create_orc_tblMarkets.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/OneTimeImport/#create_orc_tblMarkets.hql#

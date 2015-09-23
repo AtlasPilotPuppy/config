@@ -1,0 +1,4 @@
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/main/salesorder/sales-order-transform-create.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/main/salesorder/#sales-order-transform-create.hql#
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/main/salesorder/sales-order-export.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/main/salesorder/#sales-order-export.hql#

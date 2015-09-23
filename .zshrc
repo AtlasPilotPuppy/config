@@ -68,9 +68,7 @@ fun_fact(){ elinks -dump randomfunfacts\.com | sed -n '/^| /p' |sed 's/|//g'}
 
 excuse(){elinks -dump developerexcuses.com| grep '\[2\]'| sed -e 's/^[ \t]*//' -e 's/\[2\]//g' }
 
-alias cdp="cd ~/projects/proton"
-
-alias cdb="cd ~/projects/BackcountrySkiBlog"
+alias src='source ~/.zshrc'
 
 #less pips source highlight
 
@@ -100,3 +98,24 @@ export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
 
 export HBASE_HOME=/usr/lib/hbase/hbase-0.94.8
+
+alias gcloud='/home/anant/google-cloud-sdk/bin/gcloud'
+
+## GCP STUFF
+# source '/home/anant/google-cloud-sdk/path.zsh.inc'  
+
+# source '/home/anant/google-cloud-sdk/completion.zsh.inc'
+
+source /home/anant/.rvm/scripts/rvm
+
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/anant/y/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables bash completion for gcloud.
+source '/home/anant/y/google-cloud-sdk/completion.zsh.inc'
+
+alias remote='ssh anant@107.167.187.118'
+
+alias tunnel='/home/anant/projects/sshuttle/sshuttle --dns -D -r anant@remote 0/0'
+

@@ -1,0 +1,4 @@
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/importbuild/create-tim-order-orc.hql
+/home/anant/pythian/invision/TWC-ETL/hadoop/orderloader/catalog/hive/importbuild/#create-tim-order-orc.hql#
+/home/anant/pythian/invision/TWC-ETL/scripts/CreateOrderEtlJob.ps1
+/home/anant/pythian/invision/TWC-ETL/scripts/#CreateOrderEtlJob.ps1#

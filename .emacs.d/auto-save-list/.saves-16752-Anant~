@@ -1,0 +1,12 @@
+/home/anant/projects/docker-scripts/deploy/start_shell.sh
+/home/anant/projects/docker-scripts/deploy/#start_shell.sh#
+/home/anant/projects/docker-scripts/spark-1.0.0/spark-base/Dockerfile
+/home/anant/projects/docker-scripts/spark-1.0.0/spark-base/#Dockerfile#
+/home/anant/projects/docker-scripts/deploy/start_spark_cluster.sh
+/home/anant/projects/docker-scripts/deploy/#start_spark_cluster.sh#
+/home/anant/projects/docker-scripts/spark-1.0.0/spark-shell/files/default_cmd
+/home/anant/projects/docker-scripts/spark-1.0.0/spark-shell/files/#default_cmd#
+/home/anant/projects/docker-scripts/deploy/deploy.sh
+/home/anant/projects/docker-scripts/deploy/#deploy.sh#
+/home/anant/projects/docker-scripts/apache-hadoop-hdfs-precise/Dockerfile
+/home/anant/projects/docker-scripts/apache-hadoop-hdfs-precise/#Dockerfile#
